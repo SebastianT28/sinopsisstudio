@@ -1,0 +1,34 @@
+# Configuración y credenciales
+config/config.php
+.env
+
+# Dependencias (Composer)
+panel/vendor/
+vendor/
+
+# Archivos subidos por los usuarios (imágenes, etc.)
+uploads/
+panel/assets/uploads/
+
+# Logs de errores de PHP
+php_errorlog
+panel/php_errorlog
+*.log
+
+# Archivos comprimidos de respaldo
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editores/IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,82 @@
+Options +FollowSymLinks
+
+Options -Indexes
+
+
+
+# RAIZ DE WEB
+
+RewriteBase /
+
+
+
+# HTTPS SEGURO
+
+# RewriteCond %{HTTPS} off
+
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+# SIN WWW
+
+RewriteCond %{HTTP_HOST} ^www.sinopsisstudio.com.com [NC]
+
+RewriteRule (.*) https://sinopsisstudio.com.com/$1 [L,R=301]
+
+
+
+#SIN SLASH AL FINAL
+
+#RewriteRule ^(.*)/$ $1 [L,R=301]
+
+
+
+RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+Rewriterule ^/ index.php
+
+Rewriterule ^nosotros nosotros.php
+
+Rewriterule ^sesiones sesiones.php
+
+Rewriterule ^portafolio/?(.+)?$ port_detalles.php?var=$1
+
+Rewriterule ^paquetes paquetes.php
+
+Rewriterule ^blog/(.+)?$ blog.php?p=$1 [L]
+
+Rewriterule ^blog blog.php
+
+Rewriterule ^articulo/(.+)?$ article.php?id=$1
+
+Rewriterule ^terminos-y-condiciones terminos.php 
+
+Rewriterule ^error error.php
+
+Rewriterule ^miboda miboda.php
+
+Rewriterule ^contact.html contacto.php
+
+Rewriterule ^contacto contacto.php
+
+Rewriterule ^primeros-pasos primerospasos.php
+
+Rewriterule ^laboda-pdf.html labodapdf.php
+
+ErrorDocument 404 /error.php
+
+
+
+
+

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /panel/
+
+Sitemap: https://sinopsisstudio.com/sitemap.xml
