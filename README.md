@@ -4,7 +4,7 @@ Este documento detalla el estado actual, la arquitectura técnica y los requisit
 
 ## 1. Stack Tecnológico
 
-*   **Lenguaje Base:** PHP (Soporta PHP 7.4 y versiones superiores como PHP 8.x). No utiliza frameworks pesados como Laravel o Symfony; está desarrollado en **PHP Vanilla (Nativo)** con una estructura personalizada.
+*   **Lenguaje Base:** PHP 7.4 (Versión original en la que fue desarrollado el proyecto. **NOTA CRÍTICA: El código fuente y su lógica original NO deben ser actualizados ni modificados; se deben mantener tal cual para evitar posibles incompatibilidades**, aunque la sintaxis soporte entornos de ejecución PHP 8.x). No utiliza frameworks pesados como Laravel o Symfony; está desarrollado en **PHP Vanilla (Nativo)** con una estructura personalizada.
 *   **Base de Datos:** MySQL / MariaDB.
 *   **Servidor Web:** Apache (requiere tener habilitado el módulo `mod_rewrite` para que las reglas del archivo `.htaccess` funcionen correctamente).
 *   **Frontend:** HTML, CSS, JavaScript nativo y jQuery. (Diseño estructurado mediante vistas y plantillas en las carpetas públicas).
