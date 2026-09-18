@@ -121,15 +121,25 @@
 
                             <li class="menu-item menu-item-has-children <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
 
-                                <a href="paquetes">Paquetes</a>
+                                <a href="paquetes">Servicios</a>
 
                                 <ul class="sub-menu">
 
-                                    <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>"><a href="paquetes#fotografia">Paquetes de fotografía</a></li>
+                                    <li class="menu-item"><a href="servicio-familiares">Familiares</a></li>
 
-                                    <li class="menu-item <?php if($page=='Mi Boda') {echo 'current-menu-item';} ?>"><a href="miboda">Paquetes de mi boda</a></li>
+                                    <li class="menu-item"><a href="servicio-bautizos">Bautizos</a></li>
 
-                                    <li class="menu-item <?php if($page=='Primeros Pasos') {echo 'current-menu-item';} ?>"><a href="primeros-pasos">Paquetes primeros pasos</a></li>
+                                    <li class="menu-item"><a href="servicio-quinceaneras">Quinceañeros</a></li>
+
+                                    <li class="menu-item"><a href="servicio-bebes">Bebés y Embarazadas</a></li>
+
+                                    <li class="menu-item"><a href="servicio-babyshowers">Baby Showers</a></li>
+
+                                    <li class="menu-item"><a href="servicio-cumpleanos">Cumpleaños</a></li>
+
+                                    <li class="menu-item"><a href="servicio-bodas">Bodas</a></li>
+
+                                    <li class="menu-item"><a href="servicio-corporativo">Corporativo y Marca Personal</a></li>
 
                                 </ul>
 
@@ -287,17 +297,25 @@
 
                             <li class="menu-item menu-item-has-children <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
 
-                                <a href="paquetes">Paquetes</a>
+                                <a href="paquetes">Servicios</a>
 
                                 <ul class="sub-menu">
 
-                                    <li class="menu-item"><a href="paquetes#fotografia">Paquetes de fotografía</a></li>
+                                    <li class="menu-item"><a href="servicio-familiares">Familiares</a></li>
 
-                                    <!--li class="menu-item novisible"><a href="paquetes#filmacion">Paquetes de filmación</a></li-->
+                                    <li class="menu-item"><a href="servicio-bautizos">Bautizos</a></li>
 
-                                    <li class="menu-item"><a href="miboda">Paquetes de mi boda</a></li>
+                                    <li class="menu-item"><a href="servicio-quinceaneras">Quinceañeros</a></li>
 
-                                    <li class="menu-item"><a href="primeros-pasos">Paquetes primeros pasos</a></li>
+                                    <li class="menu-item"><a href="servicio-bebes">Bebés y Embarazadas</a></li>
+
+                                    <li class="menu-item"><a href="servicio-babyshowers">Baby Showers</a></li>
+
+                                    <li class="menu-item"><a href="servicio-cumpleanos">Cumpleaños</a></li>
+
+                                    <li class="menu-item"><a href="servicio-bodas">Bodas</a></li>
+
+                                    <li class="menu-item"><a href="servicio-corporativo">Corporativo y Marca Personal</a></li>
 
                                 </ul>
 

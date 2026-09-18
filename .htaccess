@@ -74,6 +74,23 @@ Rewriterule ^primeros-pasos primerospasos.php
 
 Rewriterule ^laboda-pdf.html labodapdf.php
 
+Rewriterule ^servicio-familiares servicio-familiares.php
+
+Rewriterule ^servicio-bautizos servicio-bautizos.php
+
+Rewriterule ^servicio-quinceaneras servicio-quinceaneras.php
+
+Rewriterule ^servicio-bebes servicio-bebes.php
+
+Rewriterule ^servicio-babyshowers servicio-babyshowers.php
+
+Rewriterule ^servicio-cumpleanos servicio-cumpleanos.php
+
+Rewriterule ^servicio-bodas servicio-bodas.php
+
+Rewriterule ^servicio-corporativo servicio-corporativo.php
+
+
 ErrorDocument 404 /error.php
 
 

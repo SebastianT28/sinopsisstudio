@@ -24,7 +24,7 @@ require_once "header.php";?>
 
                             <h1 class="display-2">Fotografías para bodas</h1>
 
-                            <span class="post-subtitle">Captura el amor eterno: Sesiones de boda que perduran para siempre.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Paquetes</a>
+                            <span class="post-subtitle">Captura el amor eterno: Sesiones de boda que perduran para siempre.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Servicios</a>
 
                         </div>
 
@@ -42,7 +42,7 @@ require_once "header.php";?>
 
                             <h1 class="display-2">Fotografías en exterior</h1>
 
-                            <span class="post-subtitle">Capturando momentos especiales al aire libre.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Paquetes</a>
+                            <span class="post-subtitle">Capturando momentos especiales al aire libre.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Servicios</a>
 
                         </div>
 
@@ -60,7 +60,7 @@ require_once "header.php";?>
 
                             <h1 class="display-2">Fotografías en estudio</h1>
 
-                            <span class="post-subtitle">Perfección en cada pose: Sesiones que destacan tu belleza y estilo.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Paquetes</a>
+                            <span class="post-subtitle">Perfección en cada pose: Sesiones que destacan tu belleza y estilo.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Servicios</a>
 
                         </div>
 
@@ -78,7 +78,7 @@ require_once "header.php";?>
 
                             <h1 class="display-2">Fotografía familiar</h1>
 
-                            <span class="post-subtitle">Sesiones que capturan la alegría de estar juntos.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Paquetes</a>
+                            <span class="post-subtitle">Sesiones que capturan la alegría de estar juntos.</span> <a href="https://sinopsisstudio.com/paquetes#fotografia" class="read-more white-btn">Servicios</a>
 
                         </div>
 
