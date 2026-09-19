@@ -124,6 +124,7 @@ function renderPricingCard($pkg) {
                 </div>
             <?php endif; ?>
 
+            <!-- 
             <div class="card-price">
                 <?php foreach ($pkg["price"] as $item): ?>
                     <?= $item ?><br/>
@@ -133,6 +134,7 @@ function renderPricingCard($pkg) {
             <?php if (!empty($pkg["priceNote"])): ?>
                 <p class="price-note"><?= $pkg["priceNote"] ?></p>
             <?php endif; ?>
+            -->
 
         </div>
 

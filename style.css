@@ -3727,21 +3727,23 @@ p {
 	padding: 12px;
 	border-radius: 12px;
 	border: none;
-	background: #2c2c2c;
+	background: #C69C6D; /* Café dorado */
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	cursor: pointer;
 	margin-top: 20px;
-	transition: 0.2s;
+	transition: 0.3s;
+	font-weight: 600;
 }
 
 .btn-cta.highlighted {
-	background: #1a1a1a;
+	background: #b0865a; /* Tono un poco más intenso/oscuro para destacarlo */
 }
 
 .btn-cta:hover {
-	opacity: 0.9;
+	background: #3c2a1c; /* Café oscuro del branding */
+	opacity: 1;
 }
 
 .paquetes-grid {
@@ -12019,11 +12021,12 @@ button.swiper-pagination-bullet {
 	color: #777;
 	line-height: 1.5;
 	margin: 0;
-	
+
 	/* Setup para expansión ultra suave (sin saltos bruscos) */
 	position: relative;
 	overflow: hidden;
-	max-height: 1.5em; /* Una línea de altura */
+	max-height: 1.5em;
+	/* Una línea de altura */
 	transition: max-height 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -12035,7 +12038,7 @@ button.swiper-pagination-bullet {
 	right: 0;
 	width: 50px;
 	height: 1.5em;
-	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1) 80%);
+	background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 80%);
 	pointer-events: none;
 	transition: opacity 0.4s ease;
 }
@@ -12071,7 +12074,8 @@ button.swiper-pagination-bullet {
 }
 
 .ss-servicio-panel:not(.ss-servicio-panel--soon):hover .ss-servicio-desc {
-	max-height: 120px; /* Espacio suficiente para expandir todo el texto */
+	max-height: 120px;
+	/* Espacio suficiente para expandir todo el texto */
 }
 
 .ss-servicio-panel:not(.ss-servicio-panel--soon):hover .ss-servicio-desc::after {
@@ -12144,8 +12148,10 @@ button.swiper-pagination-bullet {
 	}
 
 	.ss-servicio-desc {
-		display: block; /* Anula webkit-box */
-		max-height: none; /* Anula el max-height animado */
+		display: block;
+		/* Anula webkit-box */
+		max-height: none;
+		/* Anula el max-height animado */
 		white-space: normal;
 		overflow: visible;
 		text-overflow: unset;
@@ -12292,5 +12298,1012 @@ button.swiper-pagination-bullet {
 		height: 30px;
 		margin-left: 5px;
 		margin-bottom: 3px;
+	}
+}
+
+/* =============================================================
+   SINOPSIS STUDIO - LANDING PAGE SERVICIOS (MODERNO)
+   ============================================================= */
+
+/* 1. HERO INDICATOR */
+.ss-hero-scroll-indicator {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	opacity: 0.8;
+	font-family: var(--body-font);
+	font-size: 1rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	animation: bounce-soft 2s infinite ease-in-out;
+}
+
+@keyframes bounce-soft {
+
+	0%,
+	100% {
+		transform: translate(-50%, 0);
+	}
+
+	50% {
+		transform: translate(-50%, 10px);
+	}
+}
+
+/* LANDING SECTIONS GLOBALS */
+.ss-landing-section {
+	padding: 100px 0;
+	position: relative;
+	overflow: hidden;
+	font-family: var(--body-font);
+}
+
+.ss-section-title {
+	font-family: var(--body-font);
+	font-size: 2.8rem;
+	font-weight: 600;
+	margin-bottom: 30px;
+	line-height: 1.2;
+}
+
+/* 2. LA PROMESA */
+.ss-promesa {
+	background: #fff;
+}
+
+.ss-promesa-quote {
+	font-family: var(--headings-font);
+	font-style: italic;
+	font-size: 2.2rem;
+	color: #333;
+	max-width: 900px;
+	margin: 0 auto 60px;
+	line-height: 1.4;
+}
+
+.ss-promesa-features {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	flex-wrap: wrap;
+}
+
+.ss-feature {
+	text-align: center;
+	max-width: 250px;
+}
+
+.ss-feature-icon {
+	font-size: 3rem;
+	margin-bottom: 15px;
+}
+
+.ss-feature h4 {
+	font-family: var(--body-font);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 8px;
+	color: #222;
+}
+
+.ss-feature p {
+	font-size: 1.1rem;
+	color: #666;
+	font-family: var(--body-font);
+}
+
+/* 3. ZIGZAG Y FORMAS ORGÁNICAS */
+.ss-zigzag-section {
+	position: relative;
+	padding: 120px 0;
+}
+
+/* Por defecto usamos la versión para laptops y móviles (hasta 1536px - cubre laptops 1920x1080 a 125% escala) */
+.ss-bg-valor {
+	background: #3c2a1c url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center center / cover;
+	color: #f0e8e0;
+}
+
+/* En monitores verdaderamente anchos (>1536px) usamos la versión ancha original */
+@media (min-width: 1537px) {
+	.ss-bg-valor {
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo el valor en un instante.svg");
+	}
+}
+
+.ss-bg-cafe-suave .ss-section-title {
+	color: #222;
+}
+
+/* Blob shapes en fondo */
+.ss-zigzag-bg-shape {
+	position: absolute;
+	z-index: 0;
+	width: 800px;
+	height: 800px;
+	opacity: 0.6;
+}
+
+.ss-shape-blob-1 {
+	top: -100px;
+	right: -200px;
+}
+
+.ss-shape-blob-2 {
+	top: 50%;
+	left: -300px;
+	transform: translateY(-50%);
+}
+
+/* Cascada Shape */
+.ss-cascada-shape {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 150px;
+	z-index: 0;
+}
+.ss-cascada-shape svg {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.ss-zigzag-section .container {
+	position: relative;
+	z-index: 1;
+}
+
+/* Masks para imágenes en forma de blob */
+.ss-organic-img-container {
+	width: 100%;
+	border-radius: 40px 80px 30px 90px;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+	transition: border-radius 0.5s ease;
+}
+
+.ss-organic-img-container:hover {
+	border-radius: 80px 40px 90px 30px;
+	/* Anima la forma al hover */
+}
+
+.ss-blob-mask-1 {
+	border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.ss-blob-mask-2 {
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.ss-blob-mask-2 .img-placeholder {
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* EFECTO ZOOM IMAGEN */
+.ss-zoom-container {
+	width: 100%;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+.ss-zoom-container img {
+	transition: transform 0.6s ease;
+}
+.ss-zoom-container:hover img {
+	transform: scale(1.05);
+}
+
+/* GLASSMORPHISM CARD */
+.ss-glass-card {
+	position: relative;
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 24px;
+	padding: 50px;
+	box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+	margin-left: -50px;
+	/* Overlap sutil en desktop */
+	/* Soporte 3D Tilt */
+	will-change: transform;
+	transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.6s ease;
+	cursor: default;
+}
+
+/* Brillo holográfico que sigue el cursor - generado por JS via custom properties */
+.ss-glass-card::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-radius: 24px;
+	background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(198, 156, 109, 0.18) 0%, transparent 65%);
+	opacity: 0;
+	transition: opacity 0.4s ease;
+	pointer-events: none;
+}
+
+.ss-glass-card:hover::before {
+	opacity: 1;
+}
+
+
+.ss-checklist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clase para las imágenes de sección (reemplaza inline styles) */
+.ss-section-img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	display: block;
+}
+
+.ss-checklist li {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	font-family: var(--body-font);
+	font-size: 1.15rem;
+	color: #444;
+	margin-bottom: 20px;
+	line-height: 1.4;
+}
+
+.ss-checklist svg {
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+	margin-top: 2px;
+}
+
+/* TEXTOS VALOR INSTANTE */
+.ss-valor-instante-content {
+	padding-left: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.ss-valor-title {
+	font-family: var(--headings-font);
+	font-size: 2.8rem;
+	font-weight: 600;
+	color: #f0e8e0;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
+.ss-valor-antes {
+	color: #d2c1b1;
+	font-size: 1.15rem;
+	font-style: italic;
+	margin: 0;
+	font-family: var(--body-font);
+}
+.ss-valor-ahora {
+	font-size: 1.15rem;
+	color: #f0e8e0;
+	margin: 0;
+	font-family: var(--body-font);
+}
+
+/* MICRO HISTORIA (CAJA DE COMILLAS) */
+.ss-micro-historia {
+	background: rgba(255, 255, 255, 0.05);
+	padding: 30px;
+	border-radius: 16px;
+	border-left: 4px solid #d2c1b1;
+	position: relative;
+	margin-top: 30px;
+}
+.ss-micro-historia p {
+	margin: 0;
+	font-family: var(--headings-font);
+	font-style: italic;
+	font-size: 1.25rem;
+	color: #f0e8e0;
+	line-height: 1.5;
+}
+.quote-icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -15px;
+	left: 20px;
+	background: #3c2a1c;
+	padding: 0 5px;
+	fill: #d2c1b1;
+}
+
+/* ============================================
+   GALERÍA CINEMATOGRÁFICA - PANELES VERTICALES
+   ============================================ */
+.ss-cinematic-section {
+	padding-bottom: 0;
+}
+.ss-cinematic-section .container.alignc {
+	padding-bottom: 50px;
+}
+.ss-cinematic-gallery {
+	display: flex;
+	width: 100%;
+	height: 85vh;
+	min-height: 600px;
+	max-height: 900px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/* Panel base */
+.ss-cpanel {
+	position: relative;
+	flex: 1;
+	overflow: hidden;
+	transition: flex 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+	will-change: flex;
+}
+
+/* Wrapper de imagen que hace el zoom */
+.ss-cpanel__img-wrapper {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ss-cpanel__img-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	filter: blur(6px) saturate(0.6) brightness(0.75);
+	transform: scale(1.08); /* Evita que el blur muestre bordes blancos */
+	transition:
+		filter 0.85s cubic-bezier(0.25, 1, 0.5, 1),
+		transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+	will-change: filter, transform;
+}
+
+/* Overlay oscuro para paneles inactivos */
+.ss-cpanel__overlay {
+	position: absolute;
+	inset: 0;
+	background: rgba(20, 10, 5, 0.25);
+	transition: opacity 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+	pointer-events: none;
+}
+
+/* Subtítulo elegante de la galería */
+.ss-galeria-subtitle {
+	font-family: var(--headings-font);
+	font-style: italic;
+	font-size: 1.6rem;
+	color: #C69C6D;
+	margin-bottom: 40px;
+	line-height: 1.4;
+}
+
+/* ESTADO ACTIVO - panel expandido */
+.ss-cinematic-gallery.is-hovered .ss-cpanel.active {
+	flex: 4.5;
+}
+
+.ss-cinematic-gallery.is-hovered .ss-cpanel:not(.active) {
+	flex: 0.5;
+}
+
+.ss-cinematic-gallery.is-hovered .ss-cpanel.active .ss-cpanel__img-wrapper img {
+	filter: blur(0px) saturate(1) brightness(1);
+	transform: scale(1.02); /* Suave zoom al activarse */
+}
+
+.ss-cinematic-gallery.is-hovered .ss-cpanel.active .ss-cpanel__overlay {
+	opacity: 0;
+}
+
+.ss-cinematic-gallery.is-hovered .ss-cpanel:not(.active) .ss-cpanel__overlay {
+	opacity: 1;
+}
+
+/* Touch/mobile: sin efecto hover */
+/* Touch/mobile: Carrusel Snap Scroll Inmersivo */
+@media (hover: none), (max-width: 768px) {
+	.ss-cinematic-gallery {
+		flex-wrap: nowrap;
+		height: 60vh;
+		min-height: 400px;
+		max-height: 600px;
+		overflow-x: auto;
+		overflow-y: hidden;
+		scroll-snap-type: x mandatory;
+		-webkit-overflow-scrolling: touch;
+		scroll-behavior: smooth;
+		gap: 15px; 
+		padding: 0 5vw; /* Padding para asomar las otras fotos */
+	}
+	/* Ocultar barra de scroll en navegadores móviles */
+	.ss-cinematic-gallery::-webkit-scrollbar {
+		display: none;
+	}
+	.ss-cpanel {
+		flex: 0 0 85%; /* Ocupa el 85% del ancho para dejar ver un borde de las demás */
+		height: 100%;
+		scroll-snap-align: center;
+		border-radius: 20px;
+		transition: transform 0.6s ease;
+	}
+	
+	/* Estilos por defecto para los paneles inactivos (los de los lados) */
+	.ss-cpanel__img-wrapper img {
+		filter: blur(4px) saturate(0.6) brightness(0.6);
+		transform: scale(1.1); 
+		transition: filter 0.6s ease, transform 0.6s ease;
+	}
+	.ss-cpanel__overlay {
+		opacity: 1 !important;
+		transition: opacity 0.6s ease;
+	}
+
+	/* Estado activo (Panel en el centro, controlado por JS) */
+	.ss-cpanel.active {
+		transform: scale(1);
+	}
+	.ss-cpanel.active .ss-cpanel__img-wrapper img {
+		filter: blur(0px) saturate(1) brightness(1);
+		transform: scale(1);
+	}
+	.ss-cpanel.active .ss-cpanel__overlay {
+		opacity: 0 !important;
+	}
+
+	/* Anular comportamiento flex del hover de desktop en móviles */
+	.ss-cinematic-gallery.is-hovered .ss-cpanel.active,
+	.ss-cinematic-gallery.is-hovered .ss-cpanel:not(.active) {
+		flex: 0 0 85%;
+	}
+}
+
+/* GALERÍA MASONRY FLEX (legacy - kept for other pages) */
+
+.ss-galeria-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	padding: 0 15px;
+}
+
+.ss-gal-item {
+	flex: 1 1 300px;
+	height: 350px;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.ss-gal-item-large {
+	flex: 2 1 600px;
+}
+
+.ss-gal-item .img-placeholder {
+	background: #e0e0e0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #888;
+	transition: transform 0.6s ease;
+	font-family: var(--body-font);
+	font-size: 1.1rem;
+}
+
+.ss-gal-item:hover .img-placeholder {
+	transform: scale(1.05);
+}
+
+/* TIMELINE */
+.ss-proceso-section {
+	padding-bottom: 50px; /* Igual al margen de 50px del título para centrar la línea de tiempo */
+}
+.ss-timeline {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.ss-timeline::before {
+	content: '';
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	right: 50px;
+	height: 2px;
+	background: #ddd;
+	z-index: 0;
+}
+
+.ss-timeline-step {
+	position: relative;
+	z-index: 1;
+	flex: 1;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.ss-step-number {
+	width: 60px;
+	height: 60px;
+	background: #C69C6D;
+	color: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.8rem;
+	font-family: var(--body-font);
+	font-weight: 700;
+	margin: 0 auto 20px;
+	box-shadow: 0 0 0 10px #f8f9fa;
+	/* simula el borde del color de fondo */
+}
+
+.ss-timeline-step h4 {
+	font-family: var(--body-font);
+	font-weight: 700;
+	font-size: 1.3rem;
+	margin-bottom: 10px;
+}
+
+.ss-timeline-step p {
+	font-size: 1.05rem;
+	color: #666;
+	font-family: var(--body-font);
+}
+
+/* TESTIMONIOS */
+.ss-testimonios-section {
+	background: #fff;
+}
+
+.ss-testimonio-card {
+	background: #fdfdfd;
+	border: 1px solid #f0f0f0;
+	border-radius: 20px;
+	padding: 40px 30px;
+	position: relative;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.ss-test-bg-quote {
+	position: absolute;
+	top: -30px;
+	left: 20px;
+	font-family: var(--body-font);
+	font-size: 8rem;
+	color: #f4f4f4;
+	line-height: 1;
+	z-index: 0;
+}
+
+.ss-stars {
+	color: #C69C6D;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	position: relative;
+	z-index: 1;
+}
+
+.ss-test-text {
+	position: relative;
+	z-index: 1;
+	font-size: 1.15rem;
+	color: #444;
+	line-height: 1.5;
+	flex-grow: 1;
+	margin-bottom: 25px;
+	font-family: var(--body-font);
+	font-style: italic;
+}
+
+.ss-test-author {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	position: relative;
+	z-index: 1;
+}
+
+.ss-author-avatar {
+	width: 45px;
+	height: 45px;
+	background: #eee;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	color: #888;
+	font-family: var(--body-font);
+	font-size: 1.1rem;
+}
+
+.ss-test-author span {
+	font-family: var(--body-font);
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: #222;
+}
+
+/* BOTONES Y CTA FINAL */
+/* ─── FAQ ─── */
+.ss-faq-section {
+	background: #faf7f4;
+}
+
+.ss-faq-list {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.ss-faq-item {
+	background: #fff;
+	border-radius: 16px;
+	border: 1px solid rgba(198, 156, 109, 0.2);
+	overflow: hidden;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+	transition: box-shadow 0.3s ease;
+}
+
+.ss-faq-item:hover {
+	box-shadow: 0 8px 32px rgba(198, 156, 109, 0.15);
+}
+
+.ss-faq-question {
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 26px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	text-align: left;
+	font-family: var(--body-font);
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #2c1a0e;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.ss-faq-question:hover {
+	color: #C69C6D;
+}
+
+.ss-faq-question[aria-expanded="true"] {
+	color: #C69C6D;
+}
+
+/* Ícono +/- animado */
+.ss-faq-icon {
+	width: 28px;
+	height: 28px;
+	min-width: 28px;
+	border-radius: 50%;
+	border: 2px solid #C69C6D;
+	position: relative;
+	transition: transform 0.4s ease, background 0.3s ease;
+}
+
+.ss-faq-icon::before,
+.ss-faq-icon::after {
+	content: '';
+	position: absolute;
+	background: #C69C6D;
+	border-radius: 2px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+.ss-faq-icon::before {
+	width: 12px;
+	height: 2px;
+}
+
+.ss-faq-icon::after {
+	width: 2px;
+	height: 12px;
+}
+
+/* Rotar cuando está abierto */
+.ss-faq-question[aria-expanded="true"] .ss-faq-icon {
+	background: #C69C6D;
+	transform: rotate(45deg);
+}
+
+.ss-faq-question[aria-expanded="true"] .ss-faq-icon::before,
+.ss-faq-question[aria-expanded="true"] .ss-faq-icon::after {
+	background: #fff;
+}
+
+/* Panel de respuesta colapsable */
+.ss-faq-answer {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.ss-faq-answer.is-open {
+	max-height: 400px;
+}
+
+.ss-faq-answer p {
+	padding: 0 30px 26px;
+	margin: 0;
+	font-family: var(--body-font);
+	font-size: 1.05rem;
+	color: #555;
+	line-height: 1.7;
+	border-top: 1px solid rgba(198, 156, 109, 0.12);
+	padding-top: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.ss-faq-question {
+		padding: 20px;
+		font-size: 1rem;
+	}
+	.ss-faq-answer p {
+		padding: 14px 20px 20px;
+	}
+}
+
+.ss-landing-cta-final {
+
+	background: #C69C6D url('uploads/img_paquetes/familiaexterior.webp') no-repeat center center / cover;
+	position: relative;
+	padding: 120px 0;
+	font-family: var(--body-font);
+}
+
+.ss-landing-cta-final::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(40, 25, 10, 0.85);
+}
+
+.ss-landing-cta-final .container {
+	position: relative;
+	z-index: 1;
+}
+
+.ss-landing-cta-final p {
+	font-size: 1.15rem;
+}
+
+/* Clases que reemplazan inline styles del CTA final */
+.ss-cta-title {
+	color: #fff;
+}
+
+.ss-cta-desc {
+	color: rgba(255, 255, 255, 0.8);
+	max-width: 600px;
+	margin: 0 auto 30px;
+	font-size: 1.15rem;
+}
+
+.ss-btn-primary {
+	display: inline-block;
+	background: #C69C6D;
+	color: #fff;
+	padding: 16px 40px;
+	border-radius: 50px;
+	font-family: var(--body-font);
+	font-weight: 700;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.ss-btn-primary:hover {
+	background: #b5885a;
+	transform: translateY(-3px);
+	color: #fff;
+}
+
+/* RESPONSIVE AJUSTES */
+@media (max-width: 991px) {
+	.ss-glass-card {
+		margin-left: 0;
+		margin-top: -30px;
+		padding: 30px 20px;
+		overflow: hidden;
+	}
+
+	/* CARRUSEL MINI-TARJETAS DESLIZABLES (FEATURES) */
+	.ss-features-carousel {
+		display: flex !important;
+		flex-direction: row !important;
+		gap: 14px;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		-webkit-overflow-scrolling: touch;
+		padding: 10px 5px 20px;
+		margin: 0 -5px;
+	}
+
+	/* Ocultar barra de scroll */
+	.ss-features-carousel::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Cada item se convierte en una mini tarjeta */
+	.ss-features-carousel li {
+		flex: 0 0 78vw;
+		max-width: 260px;
+		scroll-snap-align: center;
+		background: rgba(255, 255, 255, 0.92);
+		border: 1px solid rgba(198, 156, 109, 0.25);
+		border-radius: 18px;
+		padding: 24px 20px;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 14px;
+		box-shadow: 0 8px 24px rgba(0,0,0,0.07);
+		transition: transform 0.4s ease, box-shadow 0.4s ease;
+		margin-bottom: 0 !important;
+	}
+
+	.ss-features-carousel li svg {
+		width: 36px;
+		height: 36px;
+		background: rgba(198, 156, 109, 0.1);
+		border-radius: 50%;
+		padding: 6px;
+		flex-shrink: 0;
+		margin-top: 0;
+	}
+
+	.ss-features-carousel li span {
+		font-size: 1rem;
+		line-height: 1.5;
+		color: #444;
+		font-family: var(--body-font);
+	}
+
+	.ss-text-content-light {
+		padding-left: 0;
+		margin-top: 40px;
+	}
+
+	.ss-timeline {
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.ss-timeline::before {
+		top: 0;
+		bottom: 0;
+		left: 50%; /* Línea centrada */
+		transform: translateX(-50%);
+		width: 2px;
+		height: 100%;
+	}
+
+	.ss-timeline-step {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.ss-step-number {
+		margin: 0 auto;
+		flex-shrink: 0;
+		position: relative;
+		z-index: 2;
+	}
+	
+	.ss-timeline-step h4 {
+		margin-bottom: 0;
+		position: relative;
+		z-index: 2;
+		background: #f8f9fa; /* Para tapar la línea vertical si pasa por detrás */
+		padding: 0 10px;
+	}
+
+	/* Ocultar párrafo por defecto en celular para el efecto scroll */
+	.ss-timeline-step p {
+		max-height: 0;
+		opacity: 0;
+		overflow: hidden;
+		margin: 0;
+		transition: max-height 0.6s ease, opacity 0.6s ease, margin 0.6s ease;
+		background: #f8f9fa;
+		position: relative;
+		z-index: 2;
+	}
+
+	/* Clase activa añadida por JS al hacer scroll */
+	.ss-timeline-step.is-active p {
+		max-height: 150px;
+		opacity: 1;
+		margin-top: 10px;
+	}
+
+	.ss-zigzag-bg-shape {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	/* Cargar la versión celular del SVG */
+	.ss-bg-valor {
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 laptop el valor en un instante celular.svg") !important;
+		padding: 80px 0 !important; /* Reducir padding enorme */
+	}
+
+	/* Separar el texto de la imagen en celular */
+	.ss-valor-instante-content {
+		margin-top: 50px;
+		padding-left: 0; /* Quitar padding izquierdo que era para desktop */
+	}
+
+	/* Reducir espacios en blanco excesivos en celular */
+	.ss-landing-section {
+		padding: 60px 0 !important;
+	}
+
+	.ss-section-title {
+		font-size: 2.2rem;
+	}
+
+	.ss-promesa-quote {
+		font-size: 1.8rem;
+	}
+
+	.ss-organic-img-container {
+		border-radius: 20px !important;
+	}
+
+	.ss-blob-mask-1 .img-placeholder,
+	.ss-blob-mask-2 .img-placeholder {
+		height: 350px !important;
+	}
+
+	.ss-gal-item {
+		flex: 1 1 100%;
+		height: 250px;
 	}
 }
