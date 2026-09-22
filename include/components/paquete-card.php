@@ -47,13 +47,22 @@ function renderPricingCard($pkg) {
         <div class="card-image-wrapper"
         style="border-bottom: 3px solid <?= $styles['accent'] ?>;">
         <?php
+        // Seguridad: validar existencia del archivo antes de usar getimagesize
         $imgPath = $_SERVER['DOCUMENT_ROOT'] . '/' . ltrim($pkg["image"], '/');
-        $imgSize = getimagesize($imgPath);
+        if (file_exists($imgPath) && is_readable($imgPath)) {
+            $imgSize = getimagesize($imgPath);
+            $dataWidth = intval($imgSize[0]);
+            $dataHeight = intval($imgSize[1]);
+        } else {
+            // Archivo no existe: usar dimensiones por defecto y no lanzar warning
+            $dataWidth = 1200;
+            $dataHeight = 800;
+        }
         ?>
         <div class="galeria">
             <a href="<?= URL . $pkg["image"] ?>"
-            data-pswp-width="<?= $imgSize[0] ?>"
-            data-pswp-height="<?= $imgSize[1] ?>">
+            data-pswp-width="<?= $dataWidth ?>"
+            data-pswp-height="<?= $dataHeight ?>">
 
                 <img src="<?= URL . $pkg["image"] ?>" alt="<?= $pkg["name"] ?>">
 

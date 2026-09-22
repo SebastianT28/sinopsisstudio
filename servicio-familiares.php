@@ -21,7 +21,7 @@ require_once "header.php";?>
 <!-- /TOP HEADER IMAGE -->
 
 <!-- WRAP CONTENT -->
-<div id="wrap-content" class="page-content page-holder custom-page-template page-full fullscreen-page clearfix">
+<div id="wrap-content" class="page-content page-holder custom-page-template page-full fullscreen-page clearfix ss-familiares-page">
 
     <!-- SECCIÓN 1: HERO INMERSIVO (Ya cubierto por el top-single-bkg de arriba, pero le añadiremos el botón sutil de scroll) -->
     <div class="ss-hero-scroll-indicator">
@@ -135,6 +135,8 @@ require_once "header.php";?>
             </div>
         </div>
     </section>
+
+    
 
     <!-- SECCIÓN 6: EL PROCESO (Timeline Horizontal) -->
     <section class="ss-landing-section ss-proceso-section bg-light">
@@ -357,10 +359,10 @@ require_once "header.php";?>
     <!-- SECCIÓN CONTACTO / CTA FINAL -->
 
     <div class="ss-landing-cta-final">
-        <div class="container alignc">
+        <div class="container alignc" style="background-image:url('uploads/img_paquetes/Decorative elements/fondo formato 450x1200 el valor en un instante celular.svg');background-repeat:no-repeat;background-position:center bottom;padding:40px 0;">
             <h2 class="display-4 margin-b30 ss-cta-title">¿Listo para capturar tu historia?</h2>
             <p class="ss-cta-desc">Escríbenos por WhatsApp sin compromiso, te responderemos en menos de 24 horas y coordinamos todos los detalles para que tu sesión sea inolvidable.</p>
-            <a href="https://wa.link/sinopsisstudio" target="_blank" rel="noopener noreferrer" class="ss-btn-primary">Cotizar por WhatsApp</a>
+            <a href="https://wa.me/51941221847?text=Hola%2C%20quiero%20cotizar%20el%20servicio%20de%20Fotograf%C3%ADa%20Familiar" target="_blank" rel="noopener noreferrer" class="ss-btn-primary">Cotizar por WhatsApp</a>
         </div>
     </div>
 
@@ -378,7 +380,7 @@ require_once "header.php";?>
         var gallery = document.getElementById('ssCinematicGallery');
         if (gallery) {
             var panels = Array.from(gallery.querySelectorAll('.ss-cpanel'));
-            if (!isMobile) {
+                if (!isMobile) {
                 var lastActive = null;
                 panels.forEach(function (panel) {
                     panel.addEventListener('mouseenter', function () {
@@ -392,7 +394,7 @@ require_once "header.php";?>
                     if (lastActive) {
                         panels.forEach(function (p) { p.classList.remove('active'); });
                         lastActive.classList.add('active');
-                        gallery.classList.add('is-hovered');
+                        gallery.classList.remove('is-hovered');
                     }
                 });
             } else {

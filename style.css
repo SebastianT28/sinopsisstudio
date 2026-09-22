@@ -3727,7 +3727,8 @@ p {
 	padding: 12px;
 	border-radius: 12px;
 	border: none;
-	background: #C69C6D; /* Café dorado */
+	background: #C69C6D;
+	/* Café dorado */
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -3738,11 +3739,13 @@ p {
 }
 
 .btn-cta.highlighted {
-	background: #b0865a; /* Tono un poco más intenso/oscuro para destacarlo */
+	background: #b0865a;
+	/* Tono un poco más intenso/oscuro para destacarlo */
 }
 
 .btn-cta:hover {
-	background: #3c2a1c; /* Café oscuro del branding */
+	background: #3c2a1c;
+	/* Café oscuro del branding */
 	opacity: 1;
 }
 
@@ -12358,6 +12361,8 @@ button.swiper-pagination-bullet {
 /* 2. LA PROMESA */
 .ss-promesa {
 	background: #fff;
+	padding: 60px 0 30px;
+	/* Reducir padding superior e inferior */
 }
 
 .ss-promesa-quote {
@@ -12366,7 +12371,8 @@ button.swiper-pagination-bullet {
 	font-size: 2.2rem;
 	color: #333;
 	max-width: 900px;
-	margin: 0 auto 60px;
+	margin: 0 auto 10px;
+	/* Reducir margen inferior */
 	line-height: 1.4;
 }
 
@@ -12411,6 +12417,8 @@ button.swiper-pagination-bullet {
 .ss-bg-valor {
 	background: #3c2a1c url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center center / cover;
 	color: #f0e8e0;
+	padding: 90px 0;
+	/* Recortado 25px arriba y 25px abajo */
 }
 
 /* En monitores verdaderamente anchos (>1536px) usamos la versión ancha original */
@@ -12453,6 +12461,7 @@ button.swiper-pagination-bullet {
 	width: 150px;
 	z-index: 0;
 }
+
 .ss-cascada-shape svg {
 	width: 100%;
 	height: 100%;
@@ -12497,9 +12506,11 @@ button.swiper-pagination-bullet {
 	overflow: hidden;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
 }
+
 .ss-zoom-container img {
 	transition: transform 0.6s ease;
 }
+
 .ss-zoom-container:hover img {
 	transform: scale(1.05);
 }
@@ -12537,6 +12548,157 @@ button.swiper-pagination-bullet {
 .ss-glass-card:hover::before {
 	opacity: 1;
 }
+
+/* ====== Styles for Corporativo / Marca Personal ====== */
+.ss-corporativo-page {
+	--corp-blue-50: #F3F9FF;
+	--corp-blue-100: #E6F7FF;
+	--corp-blue-300: #9EC7FF;
+	--corp-blue-500: #4A90E2;
+	--corp-blue-700: #2A6FB0;
+	--accent-warm: #C69C6D;
+}
+
+.ss-corporativo-page .ss-promesa-quote {
+	color: #000;
+}
+
+.ss-corporativo-page .ss-valor-title {
+	color: #f0e8e0;
+}
+
+.ss-corporativo-page .ss-cinematic-section .ss-section-title {
+	color: #000;
+}
+
+.ss-corporativo-page .img-frame {
+	background: linear-gradient(180deg, var(--corp-blue-50), #eef8ff);
+	border-radius: 12px;
+	box-shadow: 0 8px 24px rgba(46, 88, 138, 0.08);
+	overflow: hidden;
+}
+
+.ss-corporativo-page .ss-btn-primary {
+	background: linear-gradient(180deg, var(--corp-blue-500), var(--corp-blue-700));
+	border: none;
+	color: #fff;
+	box-shadow: 0 6px 18px rgba(74,144,226,0.18);
+}
+.ss-corporativo-page .ss-btn-primary:hover {
+	background: linear-gradient(180deg, var(--corp-blue-700), #1f5490);
+}
+
+.ss-corporativo-page .quote-icon,
+.ss-corporativo-page .ss-valor-title {
+	color: #f0e8e0;
+}
+
+.ss-corporativo-page .ss-promesa-quote {
+	color: #000;
+}
+
+.ss-corporativo-page .ss-cpanel__overlay {
+	background: linear-gradient(180deg, rgba(10,40,80,0.12), rgba(10,40,80,0.16));
+}
+
+.ss-corporativo-page .ss-stars,
+.ss-corporativo-page .ss-test-author span {
+	color: var(--accent-warm);
+}
+
+.ss-corporativo-page .ss-bg-valor {
+	min-height: 700px;
+	background-position: left bottom;
+	background-size: cover;
+}
+
+.ss-corporativo-page .ss-landing-cta-final {
+	background: #3c2a1c url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center bottom / cover;
+	color: #f0e8e0;
+	padding: 110px 0;
+}
+
+.ss-corporativo-page .ss-galeria-section {
+	padding-bottom: 80px;
+}
+
+.ss-corporativo-page .ss-corporativo-packages {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.ss-corporativo-page .ss-corporativo-contact {
+	position: relative;
+	background: #C69C6D url('uploads/img_paquetes/familiaexterior.webp') no-repeat center center / cover;
+	color: #fff;
+	padding: 110px 0 180px;
+	margin-bottom: 80px;
+}
+
+.ss-corporativo-page .ss-corporativo-contact::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(40, 25, 10, 0.85);
+}
+
+.ss-corporativo-page .ss-corporativo-contact > .container {
+	position: relative;
+	z-index: 1;
+}
+
+.ss-corporativo-page .ss-corporativo-contact .el-smalltitle,
+.ss-corporativo-page .ss-corporativo-contact h2,
+.ss-corporativo-page .ss-corporativo-contact p {
+	color: #fff;
+}
+
+.ss-corporativo-page .ss-corporativo-contact .ss-btn-primary {
+	background: #C69C6D;
+	color: #fff;
+	border: 0;
+}
+
+.ss-corporativo-page .ss-corporativo-contact .ss-btn-primary:hover {
+	background: #a77b6b;
+	color: #fff;
+}
+
+@media (min-width: 1537px) {
+	.ss-corporativo-page .ss-bg-valor {
+		min-height: 850px;
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 1920x800 escritorio el valor en un instante.svg");
+	}
+
+	.ss-corporativo-page .ss-landing-cta-final {
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 1920x800 escritorio el valor en un instante.svg");
+	}
+
+	.ss-corporativo-page .ss-corporativo-contact {
+		background-image: url('uploads/img_paquetes/familiaexterior.webp');
+	}
+}
+
+@media (max-width: 768px) {
+	.ss-corporativo-page .ss-bg-valor {
+		min-height: 760px;
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 celular el valor en un instante celular.svg");
+		background-position: left bottom;
+	}
+
+	.ss-corporativo-page .ss-landing-cta-final {
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 celular el valor en un instante celular.svg");
+	}
+
+	.ss-corporativo-page .ss-corporativo-contact {
+		background-image: url('uploads/img_paquetes/familiaexterior.webp');
+	}
+}
+
+/* End corporativo */
 
 
 .ss-checklist {
@@ -12578,6 +12740,7 @@ button.swiper-pagination-bullet {
 	flex-direction: column;
 	gap: 15px;
 }
+
 .ss-valor-title {
 	font-family: var(--headings-font);
 	font-size: 2.8rem;
@@ -12586,6 +12749,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 5px;
 	line-height: 1.2;
 }
+
 .ss-valor-antes {
 	color: #d2c1b1;
 	font-size: 1.15rem;
@@ -12593,6 +12757,7 @@ button.swiper-pagination-bullet {
 	margin: 0;
 	font-family: var(--body-font);
 }
+
 .ss-valor-ahora {
 	font-size: 1.15rem;
 	color: #f0e8e0;
@@ -12609,6 +12774,7 @@ button.swiper-pagination-bullet {
 	position: relative;
 	margin-top: 30px;
 }
+
 .ss-micro-historia p {
 	margin: 0;
 	font-family: var(--headings-font);
@@ -12617,6 +12783,7 @@ button.swiper-pagination-bullet {
 	color: #f0e8e0;
 	line-height: 1.5;
 }
+
 .quote-icon {
 	width: 30px;
 	height: 30px;
@@ -12634,9 +12801,11 @@ button.swiper-pagination-bullet {
 .ss-cinematic-section {
 	padding-bottom: 0;
 }
+
 .ss-cinematic-section .container.alignc {
 	padding-bottom: 50px;
 }
+
 .ss-cinematic-gallery {
 	display: flex;
 	width: 100%;
@@ -12670,7 +12839,8 @@ button.swiper-pagination-bullet {
 	object-fit: cover;
 	display: block;
 	filter: blur(6px) saturate(0.6) brightness(0.75);
-	transform: scale(1.08); /* Evita que el blur muestre bordes blancos */
+	transform: scale(1.08);
+	/* Evita que el blur muestre bordes blancos */
 	transition:
 		filter 0.85s cubic-bezier(0.25, 1, 0.5, 1),
 		transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
@@ -12707,7 +12877,8 @@ button.swiper-pagination-bullet {
 
 .ss-cinematic-gallery.is-hovered .ss-cpanel.active .ss-cpanel__img-wrapper img {
 	filter: blur(0px) saturate(1) brightness(1);
-	transform: scale(1.02); /* Suave zoom al activarse */
+	transform: scale(1.02);
+	/* Suave zoom al activarse */
 }
 
 .ss-cinematic-gallery.is-hovered .ss-cpanel.active .ss-cpanel__overlay {
@@ -12720,7 +12891,8 @@ button.swiper-pagination-bullet {
 
 /* Touch/mobile: sin efecto hover */
 /* Touch/mobile: Carrusel Snap Scroll Inmersivo */
-@media (hover: none), (max-width: 768px) {
+@media (hover: none),
+(max-width: 768px) {
 	.ss-cinematic-gallery {
 		flex-wrap: nowrap;
 		height: 60vh;
@@ -12731,27 +12903,32 @@ button.swiper-pagination-bullet {
 		scroll-snap-type: x mandatory;
 		-webkit-overflow-scrolling: touch;
 		scroll-behavior: smooth;
-		gap: 15px; 
-		padding: 0 5vw; /* Padding para asomar las otras fotos */
+		gap: 15px;
+		padding: 0 5vw;
+		/* Padding para asomar las otras fotos */
 	}
+
 	/* Ocultar barra de scroll en navegadores móviles */
 	.ss-cinematic-gallery::-webkit-scrollbar {
 		display: none;
 	}
+
 	.ss-cpanel {
-		flex: 0 0 85%; /* Ocupa el 85% del ancho para dejar ver un borde de las demás */
+		flex: 0 0 85%;
+		/* Ocupa el 85% del ancho para dejar ver un borde de las demás */
 		height: 100%;
 		scroll-snap-align: center;
 		border-radius: 20px;
 		transition: transform 0.6s ease;
 	}
-	
+
 	/* Estilos por defecto para los paneles inactivos (los de los lados) */
 	.ss-cpanel__img-wrapper img {
 		filter: blur(4px) saturate(0.6) brightness(0.6);
-		transform: scale(1.1); 
+		transform: scale(1.1);
 		transition: filter 0.6s ease, transform 0.6s ease;
 	}
+
 	.ss-cpanel__overlay {
 		opacity: 1 !important;
 		transition: opacity 0.6s ease;
@@ -12761,10 +12938,12 @@ button.swiper-pagination-bullet {
 	.ss-cpanel.active {
 		transform: scale(1);
 	}
+
 	.ss-cpanel.active .ss-cpanel__img-wrapper img {
 		filter: blur(0px) saturate(1) brightness(1);
 		transform: scale(1);
 	}
+
 	.ss-cpanel.active .ss-cpanel__overlay {
 		opacity: 0 !important;
 	}
@@ -12813,10 +12992,74 @@ button.swiper-pagination-bullet {
 	transform: scale(1.05);
 }
 
+/* RAMAS DECORATIVAS - PAQUETES */
+.ss-paquetes-section {
+	position: relative;
+	overflow: hidden;
+}
+
+.ss-ramas-decor {
+	position: absolute;
+	z-index: 0;
+	pointer-events: none;
+	/* No bloquea clics en los paquetes */
+	opacity: 0.9;
+	width: 200px;
+}
+
+/* Izquierda */
+.ss-ramas-1-izq {
+	top: 45px;
+	left: -40px;
+}
+
+.ss-ramas-2-izq {
+	top: 40%;
+	left: -40px;
+	width: 160px;
+}
+
+.ss-ramas-3-izq {
+	bottom: 15%;
+	left: -40px;
+}
+
+/* Derecha */
+.ss-ramas-1-der {
+	top: 45px;
+	right: -40px;
+}
+
+@media (max-width: 768px) {
+	.ss-ramas-1-izq,
+	.ss-ramas-1-der {
+		top: 25px;
+	}
+}
+
+.ss-ramas-2-der {
+	top: 40%;
+	right: -40px;
+	width: 160px;
+}
+
+.ss-ramas-3-der {
+	bottom: -20px;
+	right: -40px;
+}
+
+/* Asegurar que el contenido quede por encima de las ramas */
+.ss-paquetes-section .container {
+	position: relative;
+	z-index: 1;
+}
+
 /* TIMELINE */
 .ss-proceso-section {
-	padding-bottom: 50px; /* Igual al margen de 50px del título para centrar la línea de tiempo */
+	padding-bottom: 50px;
+	/* Igual al margen de 50px del título para centrar la línea de tiempo */
 }
+
 .ss-timeline {
 	display: flex;
 	justify-content: space-between;
@@ -13074,6 +13317,7 @@ button.swiper-pagination-bullet {
 		padding: 20px;
 		font-size: 1rem;
 	}
+
 	.ss-faq-answer p {
 		padding: 14px 20px 20px;
 	}
@@ -13179,7 +13423,7 @@ button.swiper-pagination-bullet {
 		align-items: center;
 		text-align: center;
 		gap: 14px;
-		box-shadow: 0 8px 24px rgba(0,0,0,0.07);
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
 		transition: transform 0.4s ease, box-shadow 0.4s ease;
 		margin-bottom: 0 !important;
 	}
@@ -13214,7 +13458,8 @@ button.swiper-pagination-bullet {
 	.ss-timeline::before {
 		top: 0;
 		bottom: 0;
-		left: 50%; /* Línea centrada */
+		left: 50%;
+		/* Línea centrada */
 		transform: translateX(-50%);
 		width: 2px;
 		height: 100%;
@@ -13234,12 +13479,13 @@ button.swiper-pagination-bullet {
 		position: relative;
 		z-index: 2;
 	}
-	
+
 	.ss-timeline-step h4 {
 		margin-bottom: 0;
 		position: relative;
 		z-index: 2;
-		background: #f8f9fa; /* Para tapar la línea vertical si pasa por detrás */
+		background: #f8f9fa;
+		/* Para tapar la línea vertical si pasa por detrás */
 		padding: 0 10px;
 	}
 
@@ -13268,16 +13514,19 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 768px) {
+
 	/* Cargar la versión celular del SVG */
 	.ss-bg-valor {
-		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 laptop el valor en un instante celular.svg") !important;
-		padding: 80px 0 !important; /* Reducir padding enorme */
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 celular el valor en un instante celular.svg") !important;
+		padding: 80px 0 !important;
+		/* Reducir padding enorme */
 	}
 
 	/* Separar el texto de la imagen en celular */
 	.ss-valor-instante-content {
 		margin-top: 50px;
-		padding-left: 0; /* Quitar padding izquierdo que era para desktop */
+		padding-left: 0;
+		/* Quitar padding izquierdo que era para desktop */
 	}
 
 	/* Reducir espacios en blanco excesivos en celular */
@@ -13307,3 +13556,254 @@ button.swiper-pagination-bullet {
 		height: 250px;
 	}
 }
+
+/* ══════════════════════════════════════
+   PÁGINA BEBÉS Y EMBARAZADAS — Acentos Rosa
+   ══════════════════════════════════════ */
+
+/* Reemplaza el acento dorado/café por rosa pálido en esta página */
+.ss-bebes-page .ss-checklist li svg path {
+	stroke: #E8A0B4;
+}
+
+.ss-bebes-page .ss-step-number {
+	background: #E8A0B4;
+	border-color: #E8A0B4;
+	box-shadow: 0 0 0 6px rgba(232, 160, 180, 0.18);
+}
+
+.ss-bebes-page .ss-timeline::before {
+	background: linear-gradient(to right, #E8A0B4, #f7c5d5);
+}
+
+.ss-bebes-page .ss-stars {
+	color: #E8A0B4;
+}
+
+.ss-bebes-page .ss-author-avatar {
+	background: #E8A0B4;
+}
+
+/* Blob de fondo rosa en lugar de crema */
+.ss-bebes-page .ss-zigzag-bg-shape path {
+	fill: #fce4ec !important;
+}
+
+/* Divisor decorativo de secciones maternidad/bebés */
+.ss-features-divisor {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin: 28px 0 22px;
+}
+
+.ss-features-divisor::before,
+.ss-features-divisor::after {
+	content: '';
+	flex: 1;
+	height: 1px;
+	background: linear-gradient(to right, transparent, rgba(232, 160, 180, 0.5), transparent);
+}
+
+.ss-features-divisor span {
+	font-family: var(--body-font, Manrope, sans-serif);
+	font-size: 0.78rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E8A0B4;
+	white-space: nowrap;
+}
+
+/* Etiqueta de sub-categoría dentro del checklist */
+.ss-features-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	font-family: var(--body-font, Manrope, sans-serif);
+	font-size: 0.82rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #c97690;
+	margin-bottom: 12px;
+}
+
+.ss-features-label svg {
+	width: 18px;
+	height: 18px;
+	opacity: 0.85;
+}
+
+/* CTA rosa para esta página */
+.ss-bebes-page .ss-btn-primary {
+	background: #c97690;
+}
+
+.ss-bebes-page .ss-btn-primary:hover {
+	background: #b56278;
+}
+
+/* Faq highlight rosa */
+.ss-bebes-page .ss-faq-question[aria-expanded="true"] {
+	color: #c97690;
+}
+
+@media (max-width: 768px) {
+	.ss-features-divisor {
+		margin: 20px 0 16px;
+	}
+}
+
+/* ══════════════════════════════════════
+   PÁGINA BABY SHOWERS — Acentos sage / blush
+   ══════════════════════════════════════ */
+
+.ss-babyshowers-page .ss-checklist li svg path {
+	stroke: #A8C5B5;
+}
+
+.ss-babyshowers-page .ss-step-number {
+	background: #A8C5B5;
+	border-color: #A8C5B5;
+	box-shadow: 0 0 0 6px rgba(168, 197, 181, 0.22);
+}
+
+.ss-babyshowers-page .ss-timeline::before {
+	background: linear-gradient(to right, #A8C5B5, #E8C4B8);
+}
+
+.ss-babyshowers-page .ss-stars {
+	color: #A8C5B5;
+}
+
+.ss-babyshowers-page .ss-author-avatar {
+	background: #A8C5B5;
+}
+
+.ss-babyshowers-page .ss-zigzag-bg-shape path {
+	fill: #E4F0E8 !important;
+}
+
+.ss-babyshowers-page .ss-btn-primary {
+	background: #6B8F7E;
+}
+
+.ss-babyshowers-page .ss-btn-primary:hover {
+	background: #5A7A6B;
+}
+
+.ss-babyshowers-page .ss-faq-question[aria-expanded="true"] {
+	color: #6B8F7E;
+}
+
+.ss-babyshowers-page .ss-faq-answer a {
+	color: #6B8F7E;
+	text-decoration: underline;
+}
+
+/* Altura mínima para que el árbol decorativo del SVG de fondo sea visible */
+.ss-babyshowers-page .ss-bg-valor {
+	/* Aumentamos la altura para laptops y desktops para que el motivo inferior izquierdo sea visible */
+	min-height: 700px;
+	/* Forzar que el adorno de la esquina inferior izquierda se muestre */
+	background-position: left bottom;
+	background-size: cover;
+}
+
+@media (min-width: 1537px) {
+	.ss-babyshowers-page .ss-bg-valor {
+		/* Más altura en pantallas muy anchas */
+		min-height: 850px;
+		background-position: left bottom;
+	}
+}
+
+/* Aplicar el mismo ajuste a otras páginas de servicios para consistencia visual */
+.ss-familiares-page .ss-bg-valor,
+.ss-bebes-page .ss-bg-valor,
+.ss-bautizos-page .ss-bg-valor,
+.ss-quinceaneras-page .ss-bg-valor,
+.ss-bodas-page .ss-bg-valor {
+	min-height: 700px;
+	background-position: left bottom;
+	background-size: cover;
+}
+
+@media (min-width: 1537px) {
+
+	.ss-familiares-page .ss-bg-valor,
+	.ss-bebes-page .ss-bg-valor,
+	.ss-bautizos-page .ss-bg-valor,
+	.ss-quinceaneras-page .ss-bg-valor,
+	.ss-bodas-page .ss-bg-valor {
+		min-height: 850px;
+		background-position: left bottom;
+	}
+}
+
+/* ══════════════════════════════════════
+   PÁGINA CUMPLEAÑOS — Acentos Plomo
+   ══════════════════════════════════════ */
+
+/* Recuadros plomo para las imágenes en la página de Cumpleaños */
+.ss-cumple-page .img-frame {
+	background: #6b6b6b;
+	/* plomo */
+	border-radius: 12px;
+	overflow: hidden;
+	display: block;
+}
+
+.ss-cumple-page .img-frame img {
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+	display: block;
+}
+
+/* Ajustes específicos para el bloque "El valor en un instante" en Cumpleaños */
+.ss-cumple-page .ss-bg-valor {
+	min-height: 700px;
+	background-position: left bottom;
+	background-size: cover;
+}
+
+@media (min-width: 1537px) {
+	.ss-cumple-page .ss-bg-valor {
+		min-height: 850px;
+		background-position: left bottom;
+	}
+}
+
+/* Asegurar que los placeholders en esta página contrasten con el fondo plomo */
+.ss-cumple-page .ss-gal-item .img-placeholder,
+.ss-cumple-page .img-placeholder {
+	background: #6b6b6b;
+	color: #e6e6e6;
+}
+
+/* Tipografia y cita de alto contraste sobre los fondos SVG existentes. */
+.ss-bg-valor .ss-valor-title,
+.ss-bg-valor .ss-valor-ahora {
+	color: #f5f5f5;
+}
+
+.ss-bg-valor .ss-valor-antes {
+	color: #bdbdbd;
+}
+
+.ss-bg-valor .ss-micro-historia {
+	background: rgba(36, 36, 36, 0.72);
+	border-left-color: #c69c6d;
+}
+
+.ss-bg-valor .ss-micro-historia p {
+	color: #f5f5f5;
+}
+
+.ss-bg-valor .quote-icon {
+	background: #1a1a1a;
+	fill: #c69c6d;
+}
+

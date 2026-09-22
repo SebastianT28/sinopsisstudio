@@ -135,7 +135,7 @@
 
                                     <li class="menu-item"><a href="servicio-babyshowers">Baby Showers</a></li>
 
-                                    <li class="menu-item"><a href="servicio-cumpleanos">Cumpleaños</a></li>
+                                    <li class="menu-item"><a href="servicio-cumple">Cumpleaños</a></li>
 
                                     <li class="menu-item"><a href="servicio-bodas">Bodas</a></li>
 
@@ -154,6 +154,12 @@
                             <li class="menu-item <?php if($page=='Contacto') {echo 'current-menu-item';} ?>">
 
                                 <a href="contact.html">Contacto</a>
+
+                            </li>
+
+                            <li class="menu-item <?php if($page=='FAQs') {echo 'current-menu-item';} ?>">
+
+                                <a href="faqs">FAQs</a>
 
                             </li>
 
@@ -311,7 +317,7 @@
 
                                     <li class="menu-item"><a href="servicio-babyshowers">Baby Showers</a></li>
 
-                                    <li class="menu-item"><a href="servicio-cumpleanos">Cumpleaños</a></li>
+                                    <li class="menu-item"><a href="servicio-cumple">Cumpleaños</a></li>
 
                                     <li class="menu-item"><a href="servicio-bodas">Bodas</a></li>
 
@@ -334,6 +340,12 @@
                                  <a href="contact.html">Contacto</a>
 
                                 
+
+                            </li>
+
+                            <li class="menu-item <?php if($page=='FAQs') {echo 'current-menu-item';} ?>">
+
+                                <a href="faqs">FAQs</a>
 
                             </li>
 

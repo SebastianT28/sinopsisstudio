@@ -71,10 +71,20 @@ require_once "header.php";?>
             </div>
 
             <!-- GRID DE CATEGORÍAS DE SERVICIOS -->
+            <section class="ss-paquetes-section" style="padding: 40px 0;">
+                <!-- Elementos Decorativos: Ramas Izquierda -->
+                <img src="uploads/img_paquetes/Decorative elements/Elemento decorativo ramas 1.svg" class="ss-ramas-decor ss-ramas-1-izq" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <img src="uploads/img_paquetes/Decorative elements/Elemento decorativo ramas 2.svg" class="ss-ramas-decor ss-ramas-2-izq" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <img src="uploads/img_paquetes/Decorative elements/Elemento decorativo ramas 1.svg" class="ss-ramas-decor ss-ramas-3-izq" alt="" aria-hidden="true" loading="lazy" decoding="async">
 
-            <?php
-
-            require_once 'include/components/servicios-grid.php';
+                <!-- Elementos Decorativos: Ramas Derecha (Invertidas) -->
+                <img src="uploads/img_paquetes/Decorative elements/Elemento decorativo ramas 1 invertido.svg" class="ss-ramas-decor ss-ramas-1-der" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <img src="uploads/img_paquetes/Decorative elements/Elemento decorativo ramas 2 invertido.svg" class="ss-ramas-decor ss-ramas-2-der" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <img src="uploads/img_paquetes/Decorative elements/Elemento decorativo ramas 1 invertido.svg" class="ss-ramas-decor ss-ramas-3-der" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                
+                <div class="container">
+                    <?php
+                    require_once 'include/components/servicios-grid.php';
 
             $servicios = [
 
@@ -115,8 +125,7 @@ require_once "header.php";?>
                         'uploads/img_paquetes/ninosstudio.webp',
                         'uploads/img_paquetes/ninoexterior.webp',
                     ],
-                    'url'         => '',
-                    'proximamente' => true,
+                    'url'         => 'servicio-bebes',
                 ],
 
                 [
@@ -135,7 +144,7 @@ require_once "header.php";?>
                         'uploads/img_paquetes/sesioncumpleaniosstudio.webp',
                         'uploads/img_paquetes/cumpleaniosexterior.webp',
                     ],
-                    'url'         => 'servicio-cumpleanos',
+                    'url'         => 'servicio-cumple',
                 ],
 
                 [
@@ -145,8 +154,7 @@ require_once "header.php";?>
                         'images/pages/boda1.jpg',
                         'images/pages/headboda.jpg',
                     ],
-                    'url'         => '',
-                    'proximamente' => true,
+                    'url'         => 'servicio-bodas',
                 ],
 
                 [
@@ -163,7 +171,8 @@ require_once "header.php";?>
             renderServiciosGrid($servicios);
 
             ?>
-
+                </div>
+            </section>
             <!-- /GRID DE CATEGORÍAS -->
 
             <!-- SECCIÓN DE CONTACTO -->

@@ -84,11 +84,13 @@ Rewriterule ^servicio-bebes servicio-bebes.php
 
 Rewriterule ^servicio-babyshowers servicio-babyshowers.php
 
-Rewriterule ^servicio-cumpleanos servicio-cumpleanos.php
+Rewriterule ^servicio-cumple(?:anos)?$ servicio-cumple.php [L]
 
 Rewriterule ^servicio-bodas servicio-bodas.php
 
 Rewriterule ^servicio-corporativo servicio-corporativo.php
+
+Rewriterule ^faqs$ faqs.php [L]
 
 
 ErrorDocument 404 /error.php
