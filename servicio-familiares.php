@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Paquetes para Familias | Sinopsis Studio";
-$description = "Sesiones fotográficas familiares en studio o exteriores. Capturamos la personalidad de cada miembro y la armonía del grupo. Consulta nuestros paquetes en Arequipa.";
+$page = 'Servicios';
+$title = "Sesiones familiares en Arequipa | Sinopsis Studio";
+$description = "Sesiones familiares en estudio o exteriores en Arequipa para conservar la personalidad y los vínculos de cada etapa. Conoce nuestros paquetes. Reserva hoy.";
 
 require_once "header.php";?>
 

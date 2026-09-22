@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Paquetes para Quinceañeros | Sinopsis Studio";
-$description = "Sesiones individuales y cobertura completa de quinceañeros en Arequipa. Fotografía y video cinematográfico para tu gran día. Consulta nuestros paquetes.";
+$page = 'Servicios';
+$title = "Fotografía de quinceañeras en Arequipa | Sinopsis";
+$description = "Sesiones y cobertura de quinceañeras en Arequipa con fotografía y video para contar cada instante de una celebración irrepetible. Reserva tu fecha hoy.";
 
 require_once "header.php";?>
 

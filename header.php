@@ -1,4 +1,27 @@
-<?php $url = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];?>
+<?php
+$seoBaseUrl = 'https://sinopsisstudio.com';
+$requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$scriptName = basename(parse_url($_SERVER['SCRIPT_NAME'] ?? '', PHP_URL_PATH) ?: '');
+$canonicalRoutes = [
+    'index.php' => '/',
+    'servicios.php' => '/servicios',
+    'paquetes.php' => '/paquetes',
+    'faqs.php' => '/faqs',
+    'servicio-familiares.php' => '/servicio-familiares',
+    'servicio-bautizos.php' => '/servicio-bautizos',
+    'servicio-quinceaneras.php' => '/servicio-quinceaneras',
+    'servicio-bebes.php' => '/servicio-bebes',
+    'servicio-babyshowers.php' => '/servicio-babyshowers',
+    'servicio-cumple.php' => '/servicio-cumple',
+    'servicio-bodas.php' => '/servicio-bodas',
+    'servicio-corporativo.php' => '/servicio-corporativo',
+];
+$canonicalPath = $canonicalRoutes[$scriptName] ?? rtrim($requestPath, '/');
+$canonicalPath = $canonicalPath === '' ? '/' : '/' . ltrim($canonicalPath, '/');
+$canonicalUrl = $seoBaseUrl . ($canonicalPath === '/' ? '/' : $canonicalPath);
+$ogImageUrl = $ogImage ?? $seoBaseUrl . '/images/home/slider-1.webp';
+$url = $canonicalUrl;
+?>
 
 <!DOCTYPE html>
 
@@ -12,13 +35,21 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <meta name="description" content="<?php echo $description ?? 'Sinopsis Studio ofrece sesiones de fotos familiares, para bebés y eventos especiales con iluminación profesional.'; ?>">
+        <meta name="description" content="<?php echo htmlspecialchars($description ?? 'Sinopsis Studio ofrece sesiones de fotos familiares, para bebés y eventos especiales con iluminación profesional.', ENT_QUOTES, 'UTF-8'); ?>">
+
+        <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+
+        <meta property="og:title" content="<?php echo htmlspecialchars($title ?? 'Sinopsis Studio | Fotografía familiar y sesiones profesionales', ENT_QUOTES, 'UTF-8'); ?>">
+        <meta property="og:description" content="<?php echo htmlspecialchars($description ?? 'Sinopsis Studio ofrece sesiones de fotos familiares, para bebés y eventos especiales con iluminación profesional.', ENT_QUOTES, 'UTF-8'); ?>">
+        <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="<?php echo htmlspecialchars($ogImageUrl, ENT_QUOTES, 'UTF-8'); ?>">
 
         <meta name="robots" content="index, follow">
 
         <meta name="googlebot" content="index, follow">
 
-        <title><?php echo $title ?? 'Sinopsis Studio | Fotografía familiar y sesiones profesionales'; ?></title>
+        <title><?php echo htmlspecialchars($title ?? 'Sinopsis Studio | Fotografía familiar y sesiones profesionales', ENT_QUOTES, 'UTF-8'); ?></title>
 
         <link rel="preload" as="image" href="images/home/slider-1.webp">
 
@@ -119,9 +150,9 @@
 
                             </li>
 
-                            <li class="menu-item menu-item-has-children <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
+                            <li class="menu-item menu-item-has-children <?php if($page=='Servicios') {echo 'current-menu-item';} ?>">
 
-                                <a href="paquetes">Servicios</a>
+                                <a href="servicios">Servicios</a>
 
                                 <ul class="sub-menu">
 
@@ -142,6 +173,12 @@
                                     <li class="menu-item"><a href="servicio-corporativo">Corporativo y Marca Personal</a></li>
 
                                 </ul>
+
+                            </li>
+
+                            <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
+
+                                <a href="paquetes">Paquetes</a>
 
                             </li>
 
@@ -301,9 +338,9 @@
 
                             </li>
 
-                            <li class="menu-item menu-item-has-children <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
+                            <li class="menu-item menu-item-has-children <?php if($page=='Servicios') {echo 'current-menu-item';} ?>">
 
-                                <a href="paquetes">Servicios</a>
+                                <a href="servicios">Servicios</a>
 
                                 <ul class="sub-menu">
 
@@ -324,6 +361,12 @@
                                     <li class="menu-item"><a href="servicio-corporativo">Corporativo y Marca Personal</a></li>
 
                                 </ul>
+
+                            </li>
+
+                            <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
+
+                                <a href="paquetes">Paquetes</a>
 
                             </li>
 

@@ -130,7 +130,9 @@
 
                                     <ul>
 
-                                        <li><a href="paquetes">Servicios</a></li>
+                                        <li><a href="servicios">Servicios</a></li>
+
+                                        <li><a href="paquetes">Paquetes</a></li>
 
                                         <li><a href="sesiones">Portafolio</a></li>
 

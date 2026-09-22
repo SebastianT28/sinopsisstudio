@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Bodas · Sinopsis Studio";
-$description = "Fotografía y video cinematográfico para bodas en Arequipa. Sinopsis Studio.";
+$page = 'Servicios';
+$title = "Fotografía y video de bodas en Arequipa | Sinopsis";
+$description = "Fotografía y video de bodas en Arequipa con una mirada sensible y cinematográfica para contar la historia de vuestro día más importante. Agenda una reunión.";
 
 require_once "header.php";?>
 

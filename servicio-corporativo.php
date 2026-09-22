@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Paquetes Corporativo y Marca Personal | Sinopsis Studio";
-$description = "Fotografía corporativa y de marca personal en Arequipa. Headshots profesionales, sesiones de equipo y branding visual. Consulta nuestros paquetes en Sinopsis Studio.";
+$page = 'Servicios';
+$title = "Fotografía corporativa en Arequipa | Sinopsis Studio";
+$description = "Fotografía corporativa y de marca personal en Arequipa: retratos profesionales, equipos y contenido visual alineado con tu identidad. Solicita una propuesta.";
 
 require_once "header.php";?>
 

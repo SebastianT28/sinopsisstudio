@@ -34,6 +34,22 @@ RewriteRule (.*) https://sinopsisstudio.com.com/$1 [L,R=301]
 
 RewriteEngine on
 
+# REDIRECCIONES DE URLS ANTIGUAS A RUTAS LIMPIAS
+RewriteCond %{THE_REQUEST} \s/+servicios\.php(?:[?\s]) [NC]
+RewriteRule ^servicios\.php$ /servicios [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+paquetes\.php(?:[?\s]) [NC]
+RewriteRule ^paquetes\.php$ /paquetes [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+faqs\.php(?:[?\s]) [NC]
+RewriteRule ^faqs\.php$ /faqs [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+servicio-(familiares|bautizos|quinceaneras|bebes|babyshowers|cumple|bodas|corporativo)\.php(?:[?\s]) [NC]
+RewriteRule ^(servicio-(?:familiares|bautizos|quinceaneras|bebes|babyshowers|cumple|bodas|corporativo))\.php$ /$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+servicio-cumpleanos(?:\.php)?(?:[?\s]) [NC]
+RewriteRule ^servicio-cumpleanos(?:\.php)?$ /servicio-cumple [R=301,L]
+
 RewriteCond %{SCRIPT_FILENAME} !-d
 
 RewriteCond %{SCRIPT_FILENAME} !-f
@@ -52,7 +68,9 @@ Rewriterule ^sesiones sesiones.php
 
 Rewriterule ^portafolio/?(.+)?$ port_detalles.php?var=$1
 
-Rewriterule ^paquetes paquetes.php
+Rewriterule ^paquetes/?$ paquetes.php [L]
+
+Rewriterule ^servicios/?$ servicios.php [L]
 
 Rewriterule ^blog/(.+)?$ blog.php?p=$1 [L]
 
@@ -74,23 +92,23 @@ Rewriterule ^primeros-pasos primerospasos.php
 
 Rewriterule ^laboda-pdf.html labodapdf.php
 
-Rewriterule ^servicio-familiares servicio-familiares.php
+Rewriterule ^servicio-familiares/?$ servicio-familiares.php [L]
 
-Rewriterule ^servicio-bautizos servicio-bautizos.php
+Rewriterule ^servicio-bautizos/?$ servicio-bautizos.php [L]
 
-Rewriterule ^servicio-quinceaneras servicio-quinceaneras.php
+Rewriterule ^servicio-quinceaneras/?$ servicio-quinceaneras.php [L]
 
-Rewriterule ^servicio-bebes servicio-bebes.php
+Rewriterule ^servicio-bebes/?$ servicio-bebes.php [L]
 
-Rewriterule ^servicio-babyshowers servicio-babyshowers.php
+Rewriterule ^servicio-babyshowers/?$ servicio-babyshowers.php [L]
 
-Rewriterule ^servicio-cumple(?:anos)?$ servicio-cumple.php [L]
+Rewriterule ^servicio-cumple$ servicio-cumple.php [L]
 
-Rewriterule ^servicio-bodas servicio-bodas.php
+Rewriterule ^servicio-bodas/?$ servicio-bodas.php [L]
 
-Rewriterule ^servicio-corporativo servicio-corporativo.php
+Rewriterule ^servicio-corporativo/?$ servicio-corporativo.php [L]
 
-Rewriterule ^faqs$ faqs.php [L]
+Rewriterule ^faqs/?$ faqs.php [L]
 
 
 ErrorDocument 404 /error.php

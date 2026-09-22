@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Baby Showers | Fotografía y video en Arequipa · Sinopsis Studio";
-$description = "Cobertura de baby shower en Arequipa: fotografía y video cinematográfico (~2,5 horas). Paquetes desde S/ 250. Consulta con Sinopsis Studio.";
+$page = 'Servicios';
+$title = "Fotografía de baby shower en Arequipa | Sinopsis";
+$description = "Celebra tu baby shower en Arequipa con fotografías y video que conserven la emoción, los detalles y los abrazos de este día especial. Agenda tu sesión.";
 
 require_once "header.php";?>
 

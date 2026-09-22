@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Bebés y Embarazadas | Sinopsis Studio";
-$description = "Sesiones fotográficas de maternidad, newborn y bebés en Arequipa. Capturamos los momentos más tiernos de tu historia familiar. Consulta nuestros paquetes en Sinopsis Studio.";
+$page = 'Servicios';
+$title = "Sesiones de bebés y maternidad en Arequipa | Sinopsis";
+$description = "Sesiones de maternidad, recién nacidos y bebés en Arequipa para guardar con calidez los primeros capítulos de tu historia familiar. Agenda tu sesión hoy.";
 
 require_once "header.php";?>
 

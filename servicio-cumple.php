@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Cumpleaños · Fotografía y video en Arequipa · Sinopsis Studio";
-$description = "Celebraciones de cumpleaños en Arequipa: fotografía y video cinematográfico. Paquetes desde S/ 250. Capturamos sonrisas, soplos de vela y abrazos.";
+$page = 'Servicios';
+$title = "Fotografía de cumpleaños en Arequipa | Sinopsis";
+$description = "Fotografía y video de cumpleaños en Arequipa para conservar sonrisas, abrazos y cada detalle de una celebración llena de momentos únicos. Reserva tu fecha.";
 
 require_once "header.php";?>
 

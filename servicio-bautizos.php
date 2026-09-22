@@ -2,9 +2,9 @@
 
 require_once 'config/vista.php';
 
-$page = 'Paquetes';
-$title = "Paquetes para Bautizos | Sinopsis Studio";
-$description = "Fotografía y video para bautizos en Arequipa. Cobertura completa de ceremonia y fiesta. Consulta nuestros paquetes en Sinopsis Studio.";
+$page = 'Servicios';
+$title = "Fotografía y video de bautizos en Arequipa | Sinopsis";
+$description = "Acompañamos el bautizo de tu familia en Arequipa con fotografía y video de la ceremonia y celebración. Revisa nuestras opciones de cobertura. Agenda tu fecha.";
 
 require_once "header.php";?>
 
