@@ -158,7 +158,7 @@
 
                                         <li><a href="https://www.facebook.com/people/Sinopsis-Studio/61555981502738/" target="_blank">Facebook</a></li>
 
-                                        <li><a href="https://wa.link/sinopsisstudio" target="_blank">Whatsapp</a></li>
+                                        <li><a href="https://wa.me/51941221847?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank">Whatsapp</a></li>
 
                                         <li><a href="https://www.instagram.com/sinopsis.studio/" target="_blank">Instagram</a></li>
 

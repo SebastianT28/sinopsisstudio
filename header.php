@@ -224,7 +224,7 @@ $url = $canonicalUrl;
 
                                     <li><a class="social-facebook" href="https://www.facebook.com/people/Sinopsis-Studio/61555981502738/" target="_blank" aria-label="Facebook de Sinopsis Studio">Facebook</a></li>
 
-                                    <li><a class="social-twitter" href="https://wa.link/sinopsisstudio" target="_blank" aria-label="WhatsApp de Sinopsis Studio">Whatsapp</a></li>
+                                    <li><a class="social-twitter" href="https://wa.me/51941221847?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" aria-label="WhatsApp de Sinopsis Studio">Whatsapp</a></li>
 
                                     <li><a class="social-instagram" href="https://www.instagram.com/sinopsis.studio/" target="_blank" aria-label="Instagram de Sinopsis Studio">Instagram</a></li>
 
@@ -264,7 +264,7 @@ $url = $canonicalUrl;
 
                             <li><a class="social-facebook" href="https://www.facebook.com/people/Sinopsis-Studio/61555981502738/" target="_blank" aria-label="Facebook de Sinopsis Studio"><i class="fab fa-facebook-f"></i></a></li>
 
-                            <li><a class="social-whatsapp" href="https://wa.link/sinopsisstudio" target="_blank" aria-label="WhatsApp de Sinopsis Studio"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a class="social-whatsapp" href="https://wa.me/51941221847?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" aria-label="WhatsApp de Sinopsis Studio"><i class="fab fa-whatsapp"></i></a></li>
 
                             <li><a class="social-instagram" href="https://www.instagram.com/sinopsis.studio/" target="_blank" aria-label="WhatsApp de Sinopsis Studio"><i class="fab fa-instagram"></i></a></li>
 
@@ -276,7 +276,7 @@ $url = $canonicalUrl;
 
                     <div class="logo logo-5 logo-dark"><a href="/"><img class="img-fluid" src="images/logo-dark-tilia.png" alt="Tilia" width="139" height="90"></a></div>
 
-                    <div class="btn-header btn-header-5"> <a href="https://wa.link/sinopsisstudio" target="_blank" class="read-more">Contáctanos</a></div>
+                    <div class="btn-header btn-header-5"> <a href="https://wa.me/51941221847?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" class="read-more">Contáctanos</a></div>
 
                     <!-- mobile menu button -->
 

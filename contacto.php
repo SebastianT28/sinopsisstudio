@@ -288,7 +288,7 @@ if($_GET['p']==1){
 
                                 <p>En Sinopsis Studio, contamos con el equipo y espacios necesarios para realizar tus sesiones fotográficas y capturar momentos mágicos para ti.</p>
 
-                                <a href="https://wa.link/sinopsisstudio" target="_blank" class="read-more margin-t30">Contactanos</a>
+                                <a href="https://wa.me/51941221847?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" class="read-more margin-t30">Contactanos</a>
 
                             </div>
 
