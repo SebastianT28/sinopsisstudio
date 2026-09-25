@@ -51,7 +51,7 @@ require_once "header.php";?>
                 <div class="col-lg-6">
                     <!-- Placeholder para imagen con forma orgánica (clip-path en CSS) -->
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="uploads/img_paquetes/familias_ia/familia_studio_sesion.png" alt="Sesión familiar en studio Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/familias_ia/familia_incluye_studio.webp" alt="Sesión familiar en studio Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -76,7 +76,7 @@ require_once "header.php";?>
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="ss-zoom-container">
-                        <img src="uploads/img_paquetes/familias_ia/familia_riendo_emotiva.png" alt="Familia riendo emotiva" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/familias_ia/familia_valor_exteriores.webp" alt="Familia riendo emotiva" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -105,31 +105,31 @@ require_once "header.php";?>
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
             <div class="ss-cpanel" data-index="0">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_1.png" alt="Retrato familiar 1" loading="lazy">
+                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_1.webp" alt="Retrato familiar 1" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_2.png" alt="Retrato familiar 2" loading="lazy">
+                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_2.webp" alt="Retrato familiar 2" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_3_grande.png" alt="Sesión familiar exterior" loading="lazy">
+                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_3_grande.webp" alt="Sesión familiar exterior" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="3">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_4.png" alt="Retrato familiar 4" loading="lazy">
+                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_4.webp" alt="Retrato familiar 4" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="4">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_1.png" alt="Retrato familiar 5" loading="lazy">
+                    <img src="uploads/img_paquetes/familias_ia/galeria_familia_5.webp" alt="Retrato familiar 5" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>

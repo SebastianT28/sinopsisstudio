@@ -94,7 +94,6 @@ require_once "header.php";?>
                     'imagenes'    => [
                         'uploads/img_paquetes/familiaexterior.webp',
                         'uploads/img_paquetes/familiaresstudio.webp',
-                        'uploads/img_paquetes/ninosstudio.webp',
                     ],
                     'url'         => 'servicio-familiares',
                 ],
@@ -103,7 +102,8 @@ require_once "header.php";?>
                     'nombre'      => 'Bautizos',
                     'descripcion' => 'Documentamos cada momento sagrado del día, desde la ceremonia hasta la celebración.',
                     'imagenes'    => [
-                        'uploads/img_paquetes/ninoexterior.webp',
+                        'uploads/img_paquetes/bautizos_ia/bautizo_incluye_agua.webp',
+                        'uploads/img_paquetes/bautizos_ia/bautizo_valor_emocion.webp',
                     ],
                     'url'         => 'servicio-bautizos',
                 ],
@@ -122,8 +122,8 @@ require_once "header.php";?>
                     'nombre'      => 'Bebés y Embarazadas',
                     'descripcion' => 'Sesiones delicadas para los momentos más tiernos: newborn, maternidad y familia con bebé.',
                     'imagenes'    => [
-                        'uploads/img_paquetes/ninosstudio.webp',
-                        'uploads/img_paquetes/ninoexterior.webp',
+                        'uploads/img_paquetes/bebes_embarazadas_ia/bebes_incluye_maternidad.webp',
+                        'uploads/img_paquetes/bebes_embarazadas_ia/bebes_valor_newborn.webp',
                     ],
                     'url'         => 'servicio-bebes',
                 ],
@@ -132,7 +132,8 @@ require_once "header.php";?>
                     'nombre'      => 'Baby Showers',
                     'descripcion' => 'Capturamos cada momento de celebración de la nueva vida que está por llegar.',
                     'imagenes'    => [
-                        'uploads/img_paquetes/babyshower.webp',
+                        'uploads/img_paquetes/babyShowers_ia/babyshower_incluye_decoracion.webp',
+                        'uploads/img_paquetes/babyShowers_ia/babyshower_valor_emocion.webp',
                     ],
                     'url'         => 'servicio-babyshowers',
                 ],

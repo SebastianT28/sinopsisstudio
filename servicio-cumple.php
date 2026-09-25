@@ -10,7 +10,7 @@ require_once "header.php";?>
 
 <!-- TOP HEADER IMAGE -->
         <div class="top-single-bkg topsinglepage">
-            <div class="topsingleimg"><img src="uploads/img_paquetes/cumple.webp" alt="Fotografía de cumpleaños Sinopsis Studio" width="1920" height="1080"></div>
+            <div class="topsingleimg"><img src="uploads/img_paquetes/cumpleaños_ia/cumple_header_hero.webp" alt="Fotografía de cumpleaños Sinopsis Studio" width="1920" height="1080"></div>
             <div class="inner-desc">
                 <div class="container">
                     <h1 class="display-2 single-post-title">Cumpleaños</h1>
@@ -43,7 +43,7 @@ require_once "header.php";?>
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="uploads/img_paquetes/cumple_detalle.webp" alt="Decoración y ambiente de cumpleaños" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/cumpleaños_ia/cumple_incluye_decoracion.webp" alt="Decoración y ambiente de cumpleaños" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -67,7 +67,7 @@ require_once "header.php";?>
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="ss-zoom-container img-frame">
-                        <img src="uploads/img_paquetes/cumple_momento.webp" alt="Momento emotivo de cumpleaños" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/cumpleaños_ia/cumple_valor_emocion.webp" alt="Momento emotivo de cumpleaños" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -96,31 +96,31 @@ require_once "header.php";?>
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
             <div class="ss-cpanel" data-index="0">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/cumple_gal1.webp" alt="Niño soplando vela" loading="lazy">
+                    <img src="uploads/img_paquetes/cumpleaños_ia/cumple_historia_1_vela.webp" alt="Niño soplando vela" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/cumple_gal2.webp" alt="Familia abrazada en cumpleaños" loading="lazy">
+                    <img src="uploads/img_paquetes/cumpleaños_ia/cumple_historia_2_familia.webp" alt="Familia abrazada en cumpleaños" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/cumple_gal3.webp" alt="Decoración y risas" loading="lazy">
+                    <img src="uploads/img_paquetes/cumpleaños_ia/cumple_historia_3_decoracion.webp" alt="Decoración y risas" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="3">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/cumple_gal4.webp" alt="Amigos celebrando" loading="lazy">
+                    <img src="uploads/img_paquetes/cumpleaños_ia/cumple_historia_4_amigos.webp" alt="Amigos celebrando" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="4">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/cumple_gal5.webp" alt="Sorpresa y risas" loading="lazy">
+                    <img src="uploads/img_paquetes/cumpleaños_ia/cumple_historia_5_sorpresa.webp" alt="Sorpresa y risas" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>

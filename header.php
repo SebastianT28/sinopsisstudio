@@ -150,6 +150,12 @@ $url = $canonicalUrl;
 
                             </li>
 
+                            <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
+
+                                <a href="paquetes">Paquetes</a>
+
+                            </li>
+
                             <li class="menu-item menu-item-has-children <?php if($page=='Servicios') {echo 'current-menu-item';} ?>">
 
                                 <a href="servicios">Servicios</a>
@@ -173,12 +179,6 @@ $url = $canonicalUrl;
                                     <li class="menu-item"><a href="servicio-corporativo">Corporativo y Marca Personal</a></li>
 
                                 </ul>
-
-                            </li>
-
-                            <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
-
-                                <a href="paquetes">Paquetes</a>
 
                             </li>
 
@@ -338,6 +338,12 @@ $url = $canonicalUrl;
 
                             </li>
 
+                            <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
+
+                                <a href="paquetes">Paquetes</a>
+
+                            </li>
+
                             <li class="menu-item menu-item-has-children <?php if($page=='Servicios') {echo 'current-menu-item';} ?>">
 
                                 <a href="servicios">Servicios</a>
@@ -361,12 +367,6 @@ $url = $canonicalUrl;
                                     <li class="menu-item"><a href="servicio-corporativo">Corporativo y Marca Personal</a></li>
 
                                 </ul>
-
-                            </li>
-
-                            <li class="menu-item <?php if($page=='Paquetes') {echo 'current-menu-item';} ?>">
-
-                                <a href="paquetes">Paquetes</a>
 
                             </li>
 

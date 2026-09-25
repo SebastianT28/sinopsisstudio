@@ -49,7 +49,7 @@ require_once "header.php";?>
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="ss-organic-img-container ss-blob-mask-1 img-frame">
-                                <img src="uploads/img_paquetes/bodas.webp" alt="Boda - momento" class="ss-section-img" loading="lazy" decoding="async">
+                                <img src="images/pages/boda1.jpg" alt="Boda - momento" class="ss-section-img" loading="lazy" decoding="async" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -72,7 +72,7 @@ require_once "header.php";?>
                     <div class="row align-items-center flex-row-reverse">
                         <div class="col-lg-6">
                             <div class="ss-zoom-container img-frame">
-                                <img src="uploads/img_paquetes/bodas_gal1.webp" alt="Votos y promesas" class="ss-section-img" loading="lazy" decoding="async">
+                                <img src="images/pages/img-about.jpg" alt="Votos y promesas" class="ss-section-img" loading="lazy" decoding="async" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -101,31 +101,31 @@ require_once "header.php";?>
                 <div class="ss-cinematic-gallery" id="ssCinematicGallery">
                     <div class="ss-cpanel" data-index="0">
                         <div class="ss-cpanel__img-wrapper">
-                            <img src="uploads/img_paquetes/bodas_gal1.webp" alt="Votos" loading="lazy">
+                            <img src="images/pages/portfolio1-page.jpg" alt="Votos" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="1">
                         <div class="ss-cpanel__img-wrapper">
-                            <img src="uploads/img_paquetes/bodas_gal2.webp" alt="Sesión pareja" loading="lazy">
+                            <img src="images/pages/img-about1.jpg" alt="Sesión pareja" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="2">
                         <div class="ss-cpanel__img-wrapper">
-                            <img src="uploads/img_paquetes/bodas_gal3.webp" alt="Recepción" loading="lazy">
+                            <img src="images/pages/faq-1.jpg" alt="Recepción" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="3">
                         <div class="ss-cpanel__img-wrapper">
-                            <img src="uploads/img_paquetes/bodas_gal4.webp" alt="Detalles" loading="lazy">
+                            <img src="images/pages/img-pricing.jpg" alt="Detalles" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="4">
                         <div class="ss-cpanel__img-wrapper">
-                            <img src="uploads/img_paquetes/bodas_gal5.webp" alt="Celebración" loading="lazy">
+                            <img src="images/pages/contact-page.jpg" alt="Celebración" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>

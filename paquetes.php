@@ -1276,17 +1276,7 @@ require_once "header.php";?>
     <?php require_once "footer.php";?>
 
 
-    <script type="module">
-    import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
 
-    const lightbox = new PhotoSwipeLightbox({
-    gallery: '.galeria',
-    children: 'a',
-    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js')
-    });
-
-    lightbox.init();
-    </script>
     </body>
 
 </html>

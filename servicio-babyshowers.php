@@ -10,7 +10,7 @@ require_once "header.php";?>
 
 <!-- TOP HEADER IMAGE -->
         <div class="top-single-bkg topsinglepage">
-            <div class="topsingleimg"><img src="uploads/img_paquetes/babyshower.webp" alt="Fotografía de Baby Shower Sinopsis Studio" width="1920" height="1080"></div>
+            <div class="topsingleimg"><img src="uploads/img_paquetes/babyShowers_ia/babyshower_header_hero.webp" alt="Fotografía de Baby Shower Sinopsis Studio" width="1920" height="1080"></div>
             <div class="inner-desc">
                 <div class="container">
                     <h1 class="display-2 single-post-title">Baby Showers</h1>
@@ -49,7 +49,7 @@ require_once "header.php";?>
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="uploads/img_paquetes/babyshower.webp" alt="Cobertura de baby shower Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/babyShowers_ia/babyshower_incluye_decoracion.webp" alt="Cobertura de baby shower Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -74,7 +74,7 @@ require_once "header.php";?>
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="ss-zoom-container">
-                        <img src="uploads/img_paquetes/babyshower.webp" alt="Celebración de baby shower documentada por Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/babyShowers_ia/babyshower_valor_emocion.webp" alt="Celebración de baby shower documentada por Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -103,31 +103,31 @@ require_once "header.php";?>
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
             <div class="ss-cpanel" data-index="0">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/babyshower.webp" alt="Ambientación de baby shower" loading="lazy">
+                    <img src="uploads/img_paquetes/babyShowers_ia/babyshower_historia_1_ambientacion.webp" alt="Ambientación de baby shower" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/babyshower.webp" alt="Mamá y pancita en baby shower" loading="lazy">
+                    <img src="uploads/img_paquetes/babyShowers_ia/babyshower_historia_2_mama.webp" alt="Mamá y pancita en baby shower" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/babyshower.webp" alt="Juegos y risas en baby shower" loading="lazy">
+                    <img src="uploads/img_paquetes/babyShowers_ia/babyshower_historia_3_juegos.webp" alt="Juegos y risas en baby shower" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="3">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/babyshower.webp" alt="Torta y celebración de baby shower" loading="lazy">
+                    <img src="uploads/img_paquetes/babyShowers_ia/babyshower_historia_4_torta.webp" alt="Torta y celebración de baby shower" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="4">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/babyshower.webp" alt="Familia reunida en baby shower" loading="lazy">
+                    <img src="uploads/img_paquetes/babyShowers_ia/babyshower_historia_5_familia.webp" alt="Familia reunida en baby shower" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>

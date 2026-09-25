@@ -10,7 +10,7 @@ require_once "header.php";?>
 
 <!-- TOP HEADER IMAGE -->
         <div class="top-single-bkg topsinglepage">
-            <div class="topsingleimg"><img src="uploads/img_paquetes/fotocorporativa.webp" alt="Fotografía Corporativa Sinopsis Studio" width="1920" height="1080"></div>
+            <div class="topsingleimg"><img src="images/pages/team-page.jpg" alt="Fotografía Corporativa Sinopsis Studio" width="1920" height="1080" style="object-fit: cover;"></div>
             <div class="inner-desc">
                 <div class="container">
                     <h1 class="display-2 single-post-title">Corporativo y Marca Personal</h1>
@@ -46,7 +46,7 @@ require_once "header.php";?>
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="ss-organic-img-container ss-blob-mask-1 img-frame">
-                                <img src="uploads/img_paquetes/fotocorporativa.webp" alt="Headshot profesional" class="ss-section-img" loading="lazy" decoding="async">
+                                <img src="uploads/img_paquetes/fotocorporativa.webp" alt="Headshot profesional" class="ss-section-img" loading="lazy" decoding="async" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -69,7 +69,7 @@ require_once "header.php";?>
                     <div class="row align-items-center flex-row-reverse">
                         <div class="col-lg-6">
                             <div class="ss-zoom-container img-frame">
-                                <img src="uploads/img_paquetes/corp_gal2.webp" alt="Sesión equipo" class="ss-section-img" loading="lazy" decoding="async">
+                                <img src="images/pages/img-aboutus.jpg" alt="Sesión equipo" class="ss-section-img" loading="lazy" decoding="async" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -96,23 +96,23 @@ require_once "header.php";?>
 
                 <div class="ss-cinematic-gallery" id="ssCinematicGallery">
                     <div class="ss-cpanel" data-index="0">
-                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corp_gal2.webp" alt="Equipo" loading="lazy"></div>
+                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corporativo_ia/corporativo_historia_1_headshot.webp" alt="Headshot profesional" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;"></div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="1">
-                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corp_gal3.webp" alt="Oficina" loading="lazy"></div>
+                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corporativo_ia/corporativo_historia_2_oficina.webp" alt="Sesión en oficina" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;"></div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="2">
-                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corp_gal4.webp" alt="Headshot" loading="lazy"></div>
+                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corporativo_ia/corporativo_historia_3_equipo.webp" alt="Equipo corporativo" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;"></div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="3">
-                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corp_gal5.webp" alt="Evento corporativo" loading="lazy"></div>
+                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corporativo_ia/corporativo_historia_4_marcapersonal.webp" alt="Marca personal" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;"></div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                     <div class="ss-cpanel" data-index="4">
-                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corp_gal1.webp" alt="Marca personal" loading="lazy"></div>
+                        <div class="ss-cpanel__img-wrapper"><img src="uploads/img_paquetes/corporativo_ia/corporativo_historia_5_evento.webp" alt="Evento corporativo" loading="lazy" style="object-fit: cover; width: 100%; height: 100%;"></div>
                         <div class="ss-cpanel__overlay"></div>
                     </div>
                 </div>

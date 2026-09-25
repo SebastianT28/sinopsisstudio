@@ -10,7 +10,7 @@ require_once "header.php";?>
 
 <!-- TOP HEADER IMAGE -->
         <div class="top-single-bkg topsinglepage">
-            <div class="topsingleimg"><img src="uploads/img_paquetes/ninoexterior.webp" alt="Fotografía de Bautizos Sinopsis Studio" width="1920" height="1080"></div>
+            <div class="topsingleimg"><img src="uploads/img_paquetes/bautizos_ia/bautizo_header_hero.webp" alt="Fotografía de Bautizos Sinopsis Studio" width="1920" height="1080"></div>
             <div class="inner-desc">
                 <div class="container">
                     <h1 class="display-2 single-post-title">Bautizos</h1>
@@ -51,7 +51,7 @@ require_once "header.php";?>
                 <div class="col-lg-6">
                     <!-- Placeholder para imagen con forma orgánica -->
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='32px' font-weight='bold' fill='%23777777'%3EImagen Bautizo 1%3C/text%3E%3C/svg%3E" alt="Bautizo Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/bautizos_ia/bautizo_incluye_agua.webp" alt="Bautizo Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -76,7 +76,7 @@ require_once "header.php";?>
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="ss-zoom-container">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='32px' font-weight='bold' fill='%23777777'%3EImagen Bautizo 2%3C/text%3E%3C/svg%3E" alt="Cobertura Bautizo emotiva" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/bautizos_ia/bautizo_valor_emocion.webp" alt="Cobertura Bautizo emotiva" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -105,31 +105,31 @@ require_once "header.php";?>
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
             <div class="ss-cpanel" data-index="0">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EHistoria 1%3C/text%3E%3C/svg%3E" alt="Historia Bautizo 1" loading="lazy">
+                    <img src="uploads/img_paquetes/bautizos_ia/bautizo_historia_1_bebe.webp" alt="Historia Bautizo 1" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EHistoria 2%3C/text%3E%3C/svg%3E" alt="Historia Bautizo 2" loading="lazy">
+                    <img src="uploads/img_paquetes/bautizos_ia/bautizo_historia_2_vela.webp" alt="Historia Bautizo 2" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EHistoria 3%3C/text%3E%3C/svg%3E" alt="Historia Bautizo 3" loading="lazy">
+                    <img src="uploads/img_paquetes/bautizos_ia/bautizo_historia_3_altar.webp" alt="Historia Bautizo 3" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="3">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EHistoria 4%3C/text%3E%3C/svg%3E" alt="Historia Bautizo 4" loading="lazy">
+                    <img src="uploads/img_paquetes/bautizos_ia/bautizo_historia_4_padres.webp" alt="Historia Bautizo 4" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="4">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EHistoria 5%3C/text%3E%3C/svg%3E" alt="Historia Bautizo 5" loading="lazy">
+                    <img src="uploads/img_paquetes/bautizos_ia/bautizo_historia_5_detalles.webp" alt="Historia Bautizo 5" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>

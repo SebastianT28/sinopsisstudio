@@ -12415,7 +12415,7 @@ button.swiper-pagination-bullet {
 
 /* Por defecto usamos la versión para laptops y móviles (hasta 1536px - cubre laptops 1920x1080 a 125% escala) */
 .ss-bg-valor {
-	background: #3c2a1c url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center center / cover;
+	background: #1a1a1a url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center center / 100% 100%;
 	color: #f0e8e0;
 	padding: 90px 0;
 	/* Recortado 25px arriba y 25px abajo */
@@ -12424,7 +12424,8 @@ button.swiper-pagination-bullet {
 /* En monitores verdaderamente anchos (>1536px) usamos la versión ancha original */
 @media (min-width: 1537px) {
 	.ss-bg-valor {
-		background-image: url("uploads/img_paquetes/Decorative elements/fondo el valor en un instante.svg");
+		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 1920x800 escritorio el valor en un instante.svg");
+		background-size: 100% 100%;
 	}
 }
 
@@ -12582,8 +12583,9 @@ button.swiper-pagination-bullet {
 	background: linear-gradient(180deg, var(--corp-blue-500), var(--corp-blue-700));
 	border: none;
 	color: #fff;
-	box-shadow: 0 6px 18px rgba(74,144,226,0.18);
+	box-shadow: 0 6px 18px rgba(74, 144, 226, 0.18);
 }
+
 .ss-corporativo-page .ss-btn-primary:hover {
 	background: linear-gradient(180deg, var(--corp-blue-700), #1f5490);
 }
@@ -12598,7 +12600,7 @@ button.swiper-pagination-bullet {
 }
 
 .ss-corporativo-page .ss-cpanel__overlay {
-	background: linear-gradient(180deg, rgba(10,40,80,0.12), rgba(10,40,80,0.16));
+	background: linear-gradient(180deg, rgba(10, 40, 80, 0.12), rgba(10, 40, 80, 0.16));
 }
 
 .ss-corporativo-page .ss-stars,
@@ -12608,12 +12610,12 @@ button.swiper-pagination-bullet {
 
 .ss-corporativo-page .ss-bg-valor {
 	min-height: 700px;
-	background-position: left bottom;
-	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
 .ss-corporativo-page .ss-landing-cta-final {
-	background: #3c2a1c url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center bottom / cover;
+	background: #1a1a1a url("uploads/img_paquetes/Decorative elements/fondo formato 1440x800 laptop el valor en un instante.svg") no-repeat center center / 100% 100%;
 	color: #f0e8e0;
 	padding: 110px 0;
 }
@@ -12645,7 +12647,7 @@ button.swiper-pagination-bullet {
 	background: rgba(40, 25, 10, 0.85);
 }
 
-.ss-corporativo-page .ss-corporativo-contact > .container {
+.ss-corporativo-page .ss-corporativo-contact>.container {
 	position: relative;
 	z-index: 1;
 }
@@ -12671,10 +12673,12 @@ button.swiper-pagination-bullet {
 	.ss-corporativo-page .ss-bg-valor {
 		min-height: 850px;
 		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 1920x800 escritorio el valor en un instante.svg");
+		background-size: 100% 100%;
 	}
 
 	.ss-corporativo-page .ss-landing-cta-final {
 		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 1920x800 escritorio el valor en un instante.svg");
+		background-size: 100% 100%;
 	}
 
 	.ss-corporativo-page .ss-corporativo-contact {
@@ -12686,11 +12690,13 @@ button.swiper-pagination-bullet {
 	.ss-corporativo-page .ss-bg-valor {
 		min-height: 760px;
 		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 celular el valor en un instante celular.svg");
-		background-position: left bottom;
+		background-position: center center;
+		background-size: 100% 100%;
 	}
 
 	.ss-corporativo-page .ss-landing-cta-final {
 		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 celular el valor en un instante celular.svg");
+		background-size: 100% 100%;
 	}
 
 	.ss-corporativo-page .ss-corporativo-contact {
@@ -13031,6 +13037,7 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 768px) {
+
 	.ss-ramas-1-izq,
 	.ss-ramas-1-der {
 		top: 25px;
@@ -13518,6 +13525,9 @@ button.swiper-pagination-bullet {
 	/* Cargar la versión celular del SVG */
 	.ss-bg-valor {
 		background-image: url("uploads/img_paquetes/Decorative elements/fondo formato 450x1200 celular el valor en un instante celular.svg") !important;
+		background-color: #1a1a1a !important;
+		background-size: 100% 100% !important;
+		min-height: 900px;
 		padding: 80px 0 !important;
 		/* Reducir padding enorme */
 	}
@@ -13706,16 +13716,17 @@ button.swiper-pagination-bullet {
 .ss-babyshowers-page .ss-bg-valor {
 	/* Aumentamos la altura para laptops y desktops para que el motivo inferior izquierdo sea visible */
 	min-height: 700px;
-	/* Forzar que el adorno de la esquina inferior izquierda se muestre */
-	background-position: left bottom;
-	background-size: cover;
+	background-color: #1a1a1a;
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
 @media (min-width: 1537px) {
 	.ss-babyshowers-page .ss-bg-valor {
 		/* Más altura en pantallas muy anchas */
 		min-height: 850px;
-		background-position: left bottom;
+		background-size: 100% 100%;
+		background-position: center center;
 	}
 }
 
@@ -13726,8 +13737,9 @@ button.swiper-pagination-bullet {
 .ss-quinceaneras-page .ss-bg-valor,
 .ss-bodas-page .ss-bg-valor {
 	min-height: 700px;
-	background-position: left bottom;
-	background-size: cover;
+	background-color: #1a1a1a;
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
 @media (min-width: 1537px) {
@@ -13738,7 +13750,8 @@ button.swiper-pagination-bullet {
 	.ss-quinceaneras-page .ss-bg-valor,
 	.ss-bodas-page .ss-bg-valor {
 		min-height: 850px;
-		background-position: left bottom;
+		background-size: 100% 100%;
+		background-position: center center;
 	}
 }
 
@@ -13765,14 +13778,15 @@ button.swiper-pagination-bullet {
 /* Ajustes específicos para el bloque "El valor en un instante" en Cumpleaños */
 .ss-cumple-page .ss-bg-valor {
 	min-height: 700px;
-	background-position: left bottom;
-	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
 @media (min-width: 1537px) {
 	.ss-cumple-page .ss-bg-valor {
 		min-height: 850px;
-		background-position: left bottom;
+		background-size: 100% 100%;
+		background-position: center center;
 	}
 }
 
@@ -13806,4 +13820,3 @@ button.swiper-pagination-bullet {
 	background: #1a1a1a;
 	fill: #c69c6d;
 }
-

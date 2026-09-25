@@ -10,7 +10,7 @@ require_once "header.php";?>
 
 <!-- TOP HEADER IMAGE -->
         <div class="top-single-bkg topsinglepage">
-            <div class="topsingleimg"><img src="uploads/img_paquetes/ninosstudio.webp" alt="Fotografía de Bebés y Embarazadas Sinopsis Studio" width="1920" height="1080"></div>
+            <div class="topsingleimg"><img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_header_hero.webp" alt="Fotografía de Bebés y Embarazadas Sinopsis Studio" width="1920" height="1080"></div>
             <div class="inner-desc">
                 <div class="container">
                     <h1 class="display-2 single-post-title">Bebés y Embarazadas</h1>
@@ -51,7 +51,7 @@ require_once "header.php";?>
                 <div class="col-lg-6">
                     <!-- Placeholder imagen con forma orgánica -->
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='28px' font-weight='bold' fill='%23c97690'%3EImagen Maternidad%3C/text%3E%3C/svg%3E" alt="Maternidad y Bebés Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_incluye_maternidad.webp" alt="Maternidad y Bebés Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -95,7 +95,7 @@ require_once "header.php";?>
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="ss-zoom-container">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='28px' font-weight='bold' fill='%23c97690'%3EImagen Newborn%3C/text%3E%3C/svg%3E" alt="Sesión newborn emotiva" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_valor_newborn.webp" alt="Sesión newborn emotiva" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -124,31 +124,31 @@ require_once "header.php";?>
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
             <div class="ss-cpanel" data-index="0">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='22px' font-weight='bold' fill='%23c97690'%3EPancita en Flores%3C/text%3E%3C/svg%3E" alt="Maternidad exterior" loading="lazy">
+                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_1_pancita.webp" alt="Maternidad exterior" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='22px' font-weight='bold' fill='%23c97690'%3ERetrato Mamá%3C/text%3E%3C/svg%3E" alt="Retrato maternidad studio" loading="lazy">
+                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_2_mama.webp" alt="Retrato maternidad studio" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='22px' font-weight='bold' fill='%23c97690'%3ENewborn Manitas%3C/text%3E%3C/svg%3E" alt="Newborn detalle manos" loading="lazy">
+                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_3_manitas.webp" alt="Newborn detalle manos" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="3">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='22px' font-weight='bold' fill='%23c97690'%3EBebé 6 meses%3C/text%3E%3C/svg%3E" alt="Bebé studio" loading="lazy">
+                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_4_bebe.webp" alt="Bebé studio" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="4">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23fce4ec'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='22px' font-weight='bold' fill='%23c97690'%3EFamilia Completa%3C/text%3E%3C/svg%3E" alt="Familia con recién nacido" loading="lazy">
+                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_5_familia.webp" alt="Familia con recién nacido" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>

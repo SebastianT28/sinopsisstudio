@@ -217,3 +217,17 @@
         <!-- MAIN JS -->
 
         <script src='js/init.js' defer></script>
+
+        <!-- PhotoSwipe Init para galerías de paquetes en todos los servicios -->
+        <script type="module">
+        import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '.galeria',
+            children: 'a',
+            bgClickAction: 'close',
+            pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js')
+        });
+
+        lightbox.init();
+        </script>

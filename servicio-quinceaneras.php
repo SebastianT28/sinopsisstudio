@@ -51,7 +51,7 @@ require_once "header.php";?>
                 <div class="col-lg-6">
                     <!-- Placeholder para imagen con forma orgánica -->
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='32px' font-weight='bold' fill='%23777777'%3EImagen 15 Años%3C/text%3E%3C/svg%3E" alt="15 Años Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_incluye_chica.webp" alt="15 Años Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -76,7 +76,7 @@ require_once "header.php";?>
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="ss-zoom-container">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='32px' font-weight='bold' fill='%23777777'%3ECobertura 15 Años%3C/text%3E%3C/svg%3E" alt="Cobertura Fiesta 15 Años" class="ss-section-img" loading="lazy" decoding="async">
+                        <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_valor_fiesta.webp" alt="Cobertura Fiesta 15 Años" class="ss-section-img" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -105,31 +105,31 @@ require_once "header.php";?>
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
             <div class="ss-cpanel" data-index="0">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3ERetrato Artístico%3C/text%3E%3C/svg%3E" alt="Historia 15 Años 1" loading="lazy">
+                    <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_historia_1_retrato.webp" alt="Historia 15 Años 1" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EDetalle Vestido%3C/text%3E%3C/svg%3E" alt="Historia 15 Años 2" loading="lazy">
+                    <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_historia_2_vestido.webp" alt="Historia 15 Años 2" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EPaseo Limusina%3C/text%3E%3C/svg%3E" alt="Historia 15 Años 3" loading="lazy">
+                    <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_historia_3_limusina.webp" alt="Historia 15 Años 3" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="3">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EVals con Papá%3C/text%3E%3C/svg%3E" alt="Historia 15 Años 4" loading="lazy">
+                    <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_historia_4_vals.webp" alt="Historia 15 Años 4" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
             <div class="ss-cpanel" data-index="4">
                 <div class="ss-cpanel__img-wrapper">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 1200'%3E%3Crect width='100%25' height='100%25' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24px' font-weight='bold' fill='%23777777'%3EDiversión%3C/text%3E%3C/svg%3E" alt="Historia 15 Años 5" loading="lazy">
+                    <img src="uploads/img_paquetes/quinceaneros_ia/quinceaneras_historia_5_diversion.webp" alt="Historia 15 Años 5" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
