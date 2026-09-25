@@ -236,7 +236,7 @@ require_once "header.php";?>
                             "includes" => ["Ceremonia", "Sesión pareja", "Recepción"],
                             "delivery" => ["Galería digital", "Video highlight"],
                             "considerations" => ["Consultar desplazamientos"],
-                            "image" => "uploads/img_paquetes/bodas.webp",
+                            "image" => "images/pages/boda1.jpg",
                         ],
                     ];
 

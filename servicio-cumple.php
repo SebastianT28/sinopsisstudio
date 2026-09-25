@@ -236,7 +236,7 @@ require_once "header.php";?>
                         "Entrega: 22 días aprox."
                     ],
                     "promo"          => "",
-                    "image"          => "uploads/img_paquetes/cumple.webp",
+                    "image"          => "uploads/img_paquetes/cumpleaños_ia/cumple_incluye_decoracion.webp",
                 ],
 
             ];
