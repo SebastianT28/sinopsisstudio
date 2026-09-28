@@ -73,9 +73,9 @@ $url = $canonicalUrl;
             <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
         </noscript>
         
-        <!-- Main CSS File (Precarga) -->
-        <link rel="preload" as="style" href="style.css?v.0.0.1">
-        <link rel='stylesheet' id='tilia-style-css'  href='style.css?v.0.0.1' type='text/css' media='all' />
+        <!-- Main CSS File (Precarga y Minificado) -->
+        <link rel="preload" as="style" href="style.min.css?v.0.0.1">
+        <link rel='stylesheet' id='tilia-style-css'  href='style.min.css?v.0.0.1' type='text/css' media='all' />
         
         <!-- Font Awesome Icons CSS -->
 
