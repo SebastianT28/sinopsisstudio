@@ -59,14 +59,22 @@ $url = $canonicalUrl;
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Engagement&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@100;500&family=Oooh+Baby&display=swap" rel="stylesheet">
+        <!-- Carga asíncrona de Google Fonts -->
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Engagement&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@100;500&family=Oooh+Baby&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Engagement&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@100;500&family=Oooh+Baby&display=swap" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Engagement&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@100;500&family=Oooh+Baby&display=swap">
+        </noscript>
 
-        <!-- Bootstrap CSS -->
-
-        <link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+        <!-- Bootstrap CSS (Carga Asíncrona) -->
+        <link rel="preload" as="style" href="css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap/css/bootstrap.min.css" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+        </noscript>
         
-        <!-- Main CSS File -->
-
+        <!-- Main CSS File (Precarga) -->
+        <link rel="preload" as="style" href="style.css?v.0.0.1">
         <link rel='stylesheet' id='tilia-style-css'  href='style.css?v.0.0.1' type='text/css' media='all' />
         
         <!-- Font Awesome Icons CSS -->
