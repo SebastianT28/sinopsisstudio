@@ -280,7 +280,7 @@ $url = $canonicalUrl;
 
                     </div>
 
-                    <div class="logo logo-5 logo-white"><a href="/" role="banner"><img class="img-fluid" src="images/logo-tilia.png" alt="Tilia" width="139" height="90" aria-label="Ir a la página de inicio de Sinopsis Studio"></a></div>
+                    <div class="logo logo-5 logo-white"><a href="/" role="banner"><picture><source srcset="images/logo-tilia.webp" type="image/webp"><img class="img-fluid" src="images/logo-tilia.png" alt="Tilia" width="139" height="90" aria-label="Ir a la página de inicio de Sinopsis Studio"></picture></a></div>
 
                     <div class="logo logo-5 logo-dark"><a href="/"><img class="img-fluid" src="images/logo-dark-tilia.png" alt="Tilia" width="139" height="90"></a></div>
 
