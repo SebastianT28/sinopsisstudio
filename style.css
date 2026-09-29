@@ -13036,11 +13036,9 @@ button.swiper-pagination-bullet {
 	right: -40px;
 }
 
-@media (max-width: 768px) {
-
-	.ss-ramas-1-izq,
-	.ss-ramas-1-der {
-		top: 25px;
+@media (max-width: 991px) {
+	.ss-ramas-decor {
+		display: none !important;
 	}
 }
 
