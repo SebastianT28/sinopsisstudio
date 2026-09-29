@@ -5,6 +5,7 @@ require_once 'config/vista.php';
 $page = 'Servicios';
 $title = "Servicios de fotografía y video en Arequipa | Sinopsis";
 $description = "Conoce nuestros servicios de fotografía y video en Arequipa para familias, bautizos, quinceañeras, bebés, bodas, cumpleaños y marcas. Elige la opción ideal.";
+$needsSwiper = true;
 
 require_once "header.php";?>
 

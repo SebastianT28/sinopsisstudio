@@ -208,7 +208,9 @@
 
         <script src='js/jquery.easing.min.js' defer></script>
 
+        <?php if (!empty($needsSwiper)): ?>
         <script src='js/swiper.js' defer></script>
+        <?php endif; ?>
 
         <script src='js/isotope.js' defer></script>
 

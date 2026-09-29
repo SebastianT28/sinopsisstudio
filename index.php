@@ -5,6 +5,7 @@ require_once 'config/vista.php';
 $page = 'Inicio';
 $title = "Sinopsis Studio";
 $description = "Sinopsis Studio ofrece sesiones de fotos familiares, para bebés y eventos especiales con iluminación profesional y escenarios creativos en Arequipa, Perú. Reserva tu sesión con Sinopsis Studio.";
+$needsSwiper = true;
 
 require_once "header.php";?>
 
