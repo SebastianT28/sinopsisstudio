@@ -11,6 +11,7 @@ $canonicalRoutes = [
     'servicio-bautizos.php' => '/servicio-bautizos',
     'servicio-quinceaneras.php' => '/servicio-quinceaneras',
     'servicio-bebes.php' => '/servicio-bebes',
+    'servicio-embarazadas.php' => '/servicio-embarazadas',
     'servicio-babyshowers.php' => '/servicio-babyshowers',
     'servicio-cumple.php' => '/servicio-cumple',
     'servicio-bodas.php' => '/servicio-bodas',
@@ -176,7 +177,9 @@ $url = $canonicalUrl;
 
                                     <li class="menu-item"><a href="servicio-quinceaneras">Quinceañeros</a></li>
 
-                                    <li class="menu-item"><a href="servicio-bebes">Bebés y Embarazadas</a></li>
+                                    <li class="menu-item"><a href="servicio-bebes">Bebés</a></li>
+
+                                    <li class="menu-item"><a href="servicio-embarazadas">Embarazadas</a></li>
 
                                     <li class="menu-item"><a href="servicio-babyshowers">Baby Showers</a></li>
 
@@ -364,7 +367,9 @@ $url = $canonicalUrl;
 
                                     <li class="menu-item"><a href="servicio-quinceaneras">Quinceañeros</a></li>
 
-                                    <li class="menu-item"><a href="servicio-bebes">Bebés y Embarazadas</a></li>
+                                    <li class="menu-item"><a href="servicio-bebes">Bebés</a></li>
+
+                                    <li class="menu-item"><a href="servicio-embarazadas">Embarazadas</a></li>
 
                                     <li class="menu-item"><a href="servicio-babyshowers">Baby Showers</a></li>
 

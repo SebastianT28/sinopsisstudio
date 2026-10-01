@@ -115,9 +115,8 @@ function renderPricingCard($pkg) {
                 <?php endforeach; ?>
             </ul>
 
-            <hr>
-
             <?php if (!empty($pkg["considerations"] ?? [])): ?>
+                <hr>
                 <h4>Consideraciones</h4>
                 <ul class="considerations">
                     <?php foreach ($pkg["considerations"] as $item): ?>

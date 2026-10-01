@@ -3,17 +3,20 @@
 require_once 'config/vista.php';
 
 $page = 'Servicios';
-$title = "Sesiones de bebés y maternidad en Arequipa | Sinopsis";
-$description = "Sesiones de maternidad, recién nacidos y bebés en Arequipa para guardar con calidez los primeros capítulos de tu historia familiar. Agenda tu sesión hoy.";
+$title = "Sesión de bebés y newborn en Arequipa | Sinopsis";
+$description = "Sesiones de bebés y newborn en Arequipa: capturamos los primeros días de vida y los meses más tiernos. Ambiente seguro y acogedor. Agenda hoy.";
 
 require_once "header.php";?>
 
 <!-- TOP HEADER IMAGE -->
         <div class="top-single-bkg topsinglepage">
-            <div class="topsingleimg"><img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_header_hero.webp" alt="Fotografía de Bebés y Embarazadas Sinopsis Studio" width="1920" height="1080"></div>
+            <div class="topsingleimg" style="background:#b5b5b5; min-height:420px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:16px;">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2" opacity="0.6"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                <span style="color:#fff; font-size:0.9rem; opacity:0.6; font-family:inherit;">Imagen de cabecera — pendiente</span>
+            </div>
             <div class="inner-desc">
                 <div class="container">
-                    <h1 class="display-2 single-post-title">Bebés y Embarazadas</h1>
+                    <h1 class="display-2 single-post-title">Bebés</h1>
                     <span class="post-subtitle">Paquetes disponibles</span>
                 </div>
             </div>
@@ -33,7 +36,7 @@ require_once "header.php";?>
     <section class="ss-landing-section ss-promesa">
         <div class="container alignc">
             <h2 class="ss-promesa-quote">
-                "Hay momentos tan delicados y fugaces que solo merecen ser guardados con la misma ternura con que se viven. Tu pancita, tu bebé recién nacido, ese primer abrazo... los eternizamos juntos."
+                "Hay momentos tan pequeños y fugaces que caben en la palma de tu mano. Las manitos, los piecitos, esa primera sonrisa... los eternizamos juntos antes de que el tiempo los cambie."
             </h2>
         </div>
     </section>
@@ -51,26 +54,16 @@ require_once "header.php";?>
                 <div class="col-lg-6">
                     <!-- Placeholder imagen con forma orgánica -->
                     <div class="ss-organic-img-container ss-blob-mask-1">
-                        <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_incluye_maternidad.webp" alt="Maternidad y Bebés Sinopsis Studio" class="ss-section-img" loading="lazy" decoding="async">
+                        <!-- Placeholder gris: imagen de bebés — pendiente -->
+                        <div style="background:#b5b5b5; border-radius:18px; min-height:380px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px;">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.7"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                            <span style="color:#fff; font-size:0.85rem; opacity:0.7; font-family:inherit;">Imagen de bebés — pendiente</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="ss-glass-card" id="tiltGlassCard">
                         <h3 class="ss-section-title">¿Qué incluye la experiencia?</h3>
-
-                        <!-- BLOQUE: MATERNIDAD -->
-                        <div class="ss-features-label">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="#E8A0B4" stroke-width="2"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
-                            Maternidad y Embarazo
-                        </div>
-                        <ul class="ss-checklist ss-features-carousel">
-                            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Sesión en studio o exteriores con iluminación suave.</span></li>
-                            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Propuestas de vestuario y accesorios (telas, flores, velos).</span></li>
-                            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Poses elegantes y naturales, guiadas por el fotógrafo.</span></li>
-                        </ul>
-
-                        <!-- DIVISOR DECORATIVO -->
-                        <div class="ss-features-divisor"><span>✦ Bebés y Newborn ✦</span></div>
 
                         <!-- BLOQUE: BEBÉS -->
                         <div class="ss-features-label">
@@ -79,7 +72,7 @@ require_once "header.php";?>
                         </div>
                         <ul class="ss-checklist">
                             <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Sesión newborn en las primeras 2 semanas de vida.</span></li>
-                            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Ambiente cálido y seguro: el bienestar del bebé es primero.</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Ambiente cálido y seguro: el bienestar del bebé es siempre primero.</span></li>
                             <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Fotografías de detalle: manitos, piecitos, pestañitas.</span></li>
                             <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" fill="none" stroke="#E8A0B4" stroke-width="2"/></svg> <span>Accesorios y fondos personalizados para bebés de 3–9 meses.</span></li>
                         </ul>
@@ -101,7 +94,7 @@ require_once "header.php";?>
                 <div class="col-lg-6">
                     <div class="ss-valor-instante-content">
                         <h3 class="ss-valor-title">El valor en un instante</h3>
-                        <p class="ss-valor-antes">Antes: "Las fotos del hospital o de la habitación salen oscuras y borrosas con el celular. En semanas, esos archivos se pierden olvidados en el teléfono."</p>
+                        <p class="ss-valor-antes">Antes: "Las fotos del hospital o del celular salen oscuras y sin el encuadre especial que merecen los primeros días de tu bebé."</p>
                         <p class="ss-valor-ahora">Ahora: "Conservas imágenes artísticas y atemporales de uno de los momentos más sagrados de la historia de tu familia."</p>
 
                         <div class="ss-micro-historia">
@@ -118,37 +111,48 @@ require_once "header.php";?>
     <section class="ss-landing-section ss-galeria-section ss-cinematic-section">
         <div class="container alignc">
             <h3 class="ss-section-title">Nuestras Historias</h3>
-            <p class="ss-galeria-subtitle">"Un vistazo a los momentos más tiernos que hemos tenido el honor de documentar."</p>
+            <p class="ss-galeria-subtitle">"Un vistazo a los momentos más tiernos de newborn y bebés que hemos tenido el honor de documentar."</p>
         </div>
 
         <div class="ss-cinematic-gallery" id="ssCinematicGallery">
+            <!-- Panel 1: imagen manitas newborn -->
             <div class="ss-cpanel" data-index="0">
-                <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_1_pancita.webp" alt="Maternidad exterior" loading="lazy">
-                </div>
-                <div class="ss-cpanel__overlay"></div>
-            </div>
-            <div class="ss-cpanel" data-index="1">
-                <div class="ss-cpanel__img-wrapper">
-                    <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_2_mama.webp" alt="Retrato maternidad studio" loading="lazy">
-                </div>
-                <div class="ss-cpanel__overlay"></div>
-            </div>
-            <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
                     <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_3_manitas.webp" alt="Newborn detalle manos" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
-            <div class="ss-cpanel" data-index="3">
+            <!-- Panel 2: imagen bebé studio -->
+            <div class="ss-cpanel" data-index="1">
                 <div class="ss-cpanel__img-wrapper">
                     <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_4_bebe.webp" alt="Bebé studio" loading="lazy">
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
-            <div class="ss-cpanel" data-index="4">
+            <!-- Panel 3: imagen familia con recién nacido -->
+            <div class="ss-cpanel" data-index="2">
                 <div class="ss-cpanel__img-wrapper">
                     <img src="uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_5_familia.webp" alt="Familia con recién nacido" loading="lazy">
+                </div>
+                <div class="ss-cpanel__overlay"></div>
+            </div>
+            <!-- Panel 4: placeholder gris — pendiente imagen bebé exteriores -->
+            <div class="ss-cpanel" data-index="3">
+                <div class="ss-cpanel__img-wrapper" style="background:#9e9e9e; display:flex; align-items:center; justify-content:center;">
+                    <div style="text-align:center; color:#fff; opacity:.7;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        <p style="font-size:.75rem; margin-top:8px;">Imagen pendiente</p>
+                    </div>
+                </div>
+                <div class="ss-cpanel__overlay"></div>
+            </div>
+            <!-- Panel 5: placeholder gris — pendiente imagen bebé accesorios -->
+            <div class="ss-cpanel" data-index="4">
+                <div class="ss-cpanel__img-wrapper" style="background:#ababab; display:flex; align-items:center; justify-content:center;">
+                    <div style="text-align:center; color:#fff; opacity:.7;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        <p style="font-size:.75rem; margin-top:8px;">Imagen pendiente</p>
+                    </div>
                 </div>
                 <div class="ss-cpanel__overlay"></div>
             </div>
@@ -163,7 +167,7 @@ require_once "header.php";?>
                 <div class="ss-timeline-step">
                     <div class="ss-step-number">1</div>
                     <h4>Contacto</h4>
-                    <p>Cuéntanos cuántas semanas tienes de embarazo o la edad de tu bebé para agendar la sesión ideal.</p>
+                    <p>Cuéntanos la edad de tu bebé (o tus semanas de embarazo si quieres reservar la sesión newborn) para agendar la sesión ideal.</p>
                 </div>
                 <div class="ss-timeline-step">
                     <div class="ss-step-number">2</div>
@@ -173,7 +177,7 @@ require_once "header.php";?>
                 <div class="ss-timeline-step">
                     <div class="ss-step-number">3</div>
                     <h4>La Sesión</h4>
-                    <p>Trabajamos con calma, a tu ritmo y al del bebé. La seguridad y comodidad son siempre lo primero.</p>
+                    <p>Trabajamos con calma y al ritmo del bebé. La seguridad y comodidad son siempre lo primero.</p>
                 </div>
                 <div class="ss-timeline-step">
                     <div class="ss-step-number">4</div>
@@ -187,7 +191,7 @@ require_once "header.php";?>
     <!-- SECCIÓN 7: TESTIMONIOS -->
     <section class="ss-landing-section ss-testimonios-section">
         <div class="container">
-            <h3 class="ss-section-title alignc margin-b40">Lo que dicen nuestras mamás</h3>
+            <h3 class="ss-section-title alignc margin-b40">Lo que dicen nuestros papás</h3>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="ss-testimonio-card">
@@ -204,10 +208,10 @@ require_once "header.php";?>
                     <div class="ss-testimonio-card">
                         <div class="ss-test-bg-quote">"</div>
                         <div class="ss-stars">★★★★★</div>
-                        <p class="ss-test-text">"Las fotos de mi embarazo quedaron hermosas. Siempre quise recordar esa pancita de 8 meses y ahora la tengo enmarcada en la sala."</p>
+                        <p class="ss-test-text">"Mi bebé de 5 meses estuvo feliz toda la sesión. Nos relajamos todos y salieron las fotos más naturales y tiernas que he visto."</p>
                         <div class="ss-test-author">
-                            <div class="ss-author-avatar" style="background:#E8A0B4;">G</div>
-                            <span>Gabriela M.</span>
+                            <div class="ss-author-avatar" style="background:#E8A0B4;">N</div>
+                            <span>Jorge y Natalia</span>
                         </div>
                     </div>
                 </div>
@@ -215,10 +219,10 @@ require_once "header.php";?>
                     <div class="ss-testimonio-card">
                         <div class="ss-test-bg-quote">"</div>
                         <div class="ss-stars">★★★★★</div>
-                        <p class="ss-test-text">"Mi bebé de 5 meses estuvo feliz toda la sesión. Nos relajamos todos y salieron las fotos más naturales y tiernas que he visto."</p>
+                        <p class="ss-test-text">"Solo lo esencial llevamos y ellos se encargaron de todo. Las fotos de los piecitos de mi niño entre flores son el cuadro más bonito de mi sala."</p>
                         <div class="ss-test-author">
-                            <div class="ss-author-avatar" style="background:#E8A0B4;">N</div>
-                            <span>Jorge y Natalia</span>
+                            <div class="ss-author-avatar" style="background:#E8A0B4;">C</div>
+                            <span>Carolina V.</span>
                         </div>
                     </div>
                 </div>
@@ -231,7 +235,7 @@ require_once "header.php";?>
         <div class="container margin-b30">
             <div class="padding-lr200 alignc">
                 <div class="el-smalltitle">Nuestros Planes</div>
-                <h3 class="ss-section-title">Elige el momento que quieres preservar</h3>
+                <h3 class="ss-section-title">Elige cómo quieres inmortalizar a tu bebé</h3>
             </div>
         </div>
         <div class="container">
@@ -240,30 +244,6 @@ require_once "header.php";?>
             require_once 'include/components/paquete-card.php';
 
             $packages = [
-
-                [
-                    "name"           => "Maternidad · Estudio",
-                    "description"    => "Sesión de embarazo en studio con iluminación suave y accesorios incluidos. Poses elegantes y naturales para preservar la belleza de tu pancita.",
-                    "price"          => ["Consultar"],
-                    "priceNote"      => "",
-                    "category"       => "Studio",
-                    "badge"          => "",
-                    "includes"       => [
-                        "Sesión en studio (iluminación controlada)",
-                        "Accesorios y telas incluidos",
-                        "Guía de vestuario previa"
-                    ],
-                    "delivery"       => [
-                        "15 fotografías editadas en alta calidad",
-                        "3 fotos impresas 20x30 cm"
-                    ],
-                    "considerations" => [
-                        "Ideal entre las semanas 32 y 36 de embarazo",
-                        "Entrega: 15 días hábiles aprox."
-                    ],
-                    "promo"          => "",
-                    "image"          => "uploads/img_paquetes/ninosstudio.webp",
-                ],
 
                 [
                     "name"           => "Newborn · Studio",
@@ -286,7 +266,7 @@ require_once "header.php";?>
                         "Entrega: 15 días hábiles aprox."
                     ],
                     "promo"          => "",
-                    "image"          => "uploads/img_paquetes/ninosstudio.webp",
+                    "image"          => "uploads/img_paquetes/bebes_embarazadas_ia/bebes_valor_newborn.webp",
                 ],
 
                 [
@@ -325,16 +305,6 @@ require_once "header.php";?>
         <div class="container">
             <h3 class="ss-section-title alignc margin-b50">Preguntas Frecuentes</h3>
             <div class="ss-faq-list" id="ssFaqList">
-
-                <div class="ss-faq-item">
-                    <button class="ss-faq-question" aria-expanded="false">
-                        ¿A cuántas semanas de embarazo es ideal la sesión de maternidad?
-                        <span class="ss-faq-icon" aria-hidden="true"></span>
-                    </button>
-                    <div class="ss-faq-answer">
-                        <p>El momento ideal es entre las <strong>semanas 32 y 36</strong> de embarazo. En esa etapa la pancita está bien redonda y fotogénica, pero todavía te manejas con comodidad para las diferentes poses. Es el punto dulce entre belleza y comodidad.</p>
-                    </div>
-                </div>
 
                 <div class="ss-faq-item">
                     <button class="ss-faq-question" aria-expanded="false">
@@ -383,9 +353,9 @@ require_once "header.php";?>
     <!-- SECCIÓN CONTACTO / CTA FINAL -->
     <div class="ss-landing-cta-final">
         <div class="container alignc">
-            <h2 class="display-4 margin-b30 ss-cta-title">¿Lista para eternizar este milagro?</h2>
-            <p class="ss-cta-desc">Escríbenos por WhatsApp y con gusto te asesoramos sobre qué sesión es la ideal según la etapa de tu bebé o de tu embarazo.</p>
-            <a href="https://wa.me/51941221847?text=Hola%2C%20quiero%20cotizar%20el%20servicio%20de%20Beb%C3%A9s%20y%20Embarazadas" target="_blank" rel="noopener noreferrer" class="ss-btn-primary">Cotizar por WhatsApp</a>
+            <h2 class="display-4 margin-b30 ss-cta-title">¿Listo para eternizar los primeros momentos de tu bebé?</h2>
+            <p class="ss-cta-desc">Escríbenos por WhatsApp y con gusto te asesoramos sobre qué sesión es la ideal según la edad de tu bebé.</p>
+            <a href="https://wa.me/51941221847?text=Hola%2C%20quiero%20cotizar%20el%20servicio%20de%20Fotograf%C3%ADa%20de%20Beb%C3%A9s" target="_blank" rel="noopener noreferrer" class="ss-btn-primary">Cotizar por WhatsApp</a>
         </div>
     </div>
 

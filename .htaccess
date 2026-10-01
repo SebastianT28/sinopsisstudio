@@ -44,8 +44,8 @@ RewriteRule ^paquetes\.php$ /paquetes [R=301,L]
 RewriteCond %{THE_REQUEST} \s/+faqs\.php(?:[?\s]) [NC]
 RewriteRule ^faqs\.php$ /faqs [R=301,L]
 
-RewriteCond %{THE_REQUEST} \s/+servicio-(familiares|bautizos|quinceaneras|bebes|babyshowers|cumple|bodas|corporativo)\.php(?:[?\s]) [NC]
-RewriteRule ^(servicio-(?:familiares|bautizos|quinceaneras|bebes|babyshowers|cumple|bodas|corporativo))\.php$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+servicio-(familiares|bautizos|quinceaneras|bebes|embarazadas|babyshowers|cumple|bodas|corporativo)\.php(?:[?\s]) [NC]
+RewriteRule ^(servicio-(?:familiares|bautizos|quinceaneras|bebes|embarazadas|babyshowers|cumple|bodas|corporativo))\.php$ /$1 [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+servicio-cumpleanos(?:\.php)?(?:[?\s]) [NC]
 RewriteRule ^servicio-cumpleanos(?:\.php)?$ /servicio-cumple [R=301,L]
@@ -99,6 +99,8 @@ Rewriterule ^servicio-bautizos/?$ servicio-bautizos.php [L]
 Rewriterule ^servicio-quinceaneras/?$ servicio-quinceaneras.php [L]
 
 Rewriterule ^servicio-bebes/?$ servicio-bebes.php [L]
+
+Rewriterule ^servicio-embarazadas/?$ servicio-embarazadas.php [L]
 
 Rewriterule ^servicio-babyshowers/?$ servicio-babyshowers.php [L]
 

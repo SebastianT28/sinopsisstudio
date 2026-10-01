@@ -120,13 +120,23 @@ require_once "header.php";?>
                 ],
 
                 [
-                    'nombre'      => 'Bebés y Embarazadas',
-                    'descripcion' => 'Sesiones delicadas para los momentos más tiernos: newborn, maternidad y familia con bebé.',
+                    'nombre'      => 'Bebés',
+                    'descripcion' => 'Sesiones de newborn y bebés en ambiente cálido y seguro. Capturamos los detalles más tiernos: manitos, piecitos y esa primera sonrisa.',
                     'imagenes'    => [
-                        'uploads/img_paquetes/bebes_embarazadas_ia/bebes_incluye_maternidad.webp',
+                        'uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_3_manitas.webp',
                         'uploads/img_paquetes/bebes_embarazadas_ia/bebes_valor_newborn.webp',
                     ],
                     'url'         => 'servicio-bebes',
+                ],
+
+                [
+                    'nombre'      => 'Embarazadas',
+                    'descripcion' => 'Sesiones de maternidad para guardar con calidez la belleza de tu embarazo. Poses elegantes, accesorios incluidos y un ambiente lleno de ternura.',
+                    'imagenes'    => [
+                        'uploads/img_paquetes/bebes_embarazadas_ia/bebes_incluye_maternidad.webp',
+                        'uploads/img_paquetes/bebes_embarazadas_ia/bebes_historia_2_mama.webp',
+                    ],
+                    'url'         => 'servicio-embarazadas',
                 ],
 
                 [

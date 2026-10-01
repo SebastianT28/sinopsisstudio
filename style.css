@@ -3615,6 +3615,7 @@ a.social-skype:hover {
 	transition: 0.3s;
 	max-width: 380px;
 	width: 100%;
+	height: fit-content;
 }
 
 .pricing-card:hover {
@@ -3640,11 +3641,9 @@ a.social-skype:hover {
 }
 
 .card-content {
-	height: calc(100% - 230px);
 	padding: 25px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .category-tag {
@@ -3694,9 +3693,10 @@ a.social-skype:hover {
 }
 
 .card-content ul li {
-	margin-bottom: 0;
-	font-size: 14px;
-	color: #444;
+	margin-bottom: 8px;
+	font-size: 15.5px;
+	color: #1a1a1a;
+	font-weight: 500;
 }
 
 .card-content h4 {
@@ -3754,6 +3754,7 @@ p {
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 0.5rem;
 	justify-items: center;
+	align-items: start;
 }
 
 .card-image-wrapper {
@@ -13661,6 +13662,47 @@ button.swiper-pagination-bullet {
 	.ss-features-divisor {
 		margin: 20px 0 16px;
 	}
+}
+
+/* -------------------------------------------
+   PÁGINA EMBARAZADAS - Acentos Café (del botón)
+   ------------------------------------------- */
+.ss-embarazadas-page .ss-checklist li svg path {
+	stroke: #C69C6D;
+}
+.ss-embarazadas-page .ss-step-number {
+	background: #C69C6D;
+	border-color: #C69C6D;
+	box-shadow: 0 0 0 6px rgba(198, 156, 109, 0.18);
+}
+.ss-embarazadas-page .ss-timeline::before {
+	background: linear-gradient(to right, #C69C6D, #dfbd9b);
+}
+.ss-embarazadas-page .ss-stars {
+	color: #C69C6D;
+}
+.ss-embarazadas-page .ss-author-avatar {
+	background: #C69C6D;
+	color: #fff;
+}
+.ss-embarazadas-page .ss-zigzag-bg-shape path {
+	fill: #FDF8F3 !important;
+}
+.ss-embarazadas-page .ss-features-divisor::before,
+.ss-embarazadas-page .ss-features-divisor::after {
+	background: linear-gradient(to right, transparent, rgba(198, 156, 109, 0.5), transparent);
+}
+.ss-embarazadas-page .ss-features-label {
+	color: #b0865a;
+}
+.ss-embarazadas-page .ss-btn-primary {
+	background: #C69C6D;
+}
+.ss-embarazadas-page .ss-btn-primary:hover {
+	background: #3c2a1c;
+}
+.ss-embarazadas-page .ss-faq-question[aria-expanded="true"] {
+	color: #b0865a;
 }
 
 /* ══════════════════════════════════════
